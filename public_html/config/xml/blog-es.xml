@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>ES - Blog Ecommerce de PrestaShop</title>
+	<atom:link href="http://www.prestashop.com/blog/es/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.prestashop.com/blog/es</link>
+	<description></description>
+	<lastBuildDate>Tue, 14 Jun 2016 09:11:20 +0000</lastBuildDate>
+	<language>es-ES</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>PrestaShop ya está disponible en Microsoft Azure Marketplace</title>
+		<link>https://www.prestashop.com/blog/es/prestashop-ya-esta-disponible-en-microsoft-azure-marketplace/</link>
+		<comments>https://www.prestashop.com/blog/es/prestashop-ya-esta-disponible-en-microsoft-azure-marketplace/#comments</comments>
+		<pubDate>Tue, 14 Jun 2016 09:11:20 +0000</pubDate>
+		<dc:creator><![CDATA[Kate Robinson]]></dc:creator>
+				<category><![CDATA[Actualidad PrestaShop]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/es/?p=14626</guid>
+		<description><![CDATA[<p>En PrestaShop buscamos sin cesar nuevas formas de mejorar el rendimiento de las tiendas de nuestros vendedores. Por este motivo, nos complace anunciar nuestra nueva colaboración con Microsoft gracias a la cual PrestaShop estará disponible en todo el mundo desde Microsoft Azure Cloud. ¿A qué viene tanto revuelo? Técnicamente, esto supone que podrás obtener PrestaShop [...]</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/prestashop-ya-esta-disponible-en-microsoft-azure-marketplace/">PrestaShop ya está disponible en Microsoft Azure Marketplace</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>En PrestaShop buscamos sin cesar nuevas formas de mejorar el rendimiento de las tiendas de nuestros vendedores. Por este motivo, nos complace anunciar nuestra nueva colaboración con Microsoft gracias a la cual PrestaShop estará disponible en todo el mundo desde <a href="https://azure.microsoft.com/es-es/?b=16.17" target="_blank">Microsoft Azure Cloud</a>.<br />
+<span id="more-14626"></span><br />
+¿A qué viene tanto revuelo? Técnicamente, esto supone que podrás obtener PrestaShop en <a href="https://azure.microsoft.com/es-es/marketplace/" target="_blank">Microsoft Azure Marketplace</a> con una infraestructura de máquinas virtuales preconfiguradas que se instala automáticamente y está lista para producción. PrestaShop y Azure ofrecen opciones que se adaptan a todas las necesidades, tanto de vendedores que preparan el lanzamiento de sus tiendas como de agencias que buscan soluciones eficaces. Hemos desarrollado varias arquitecturas predefinidas, y lanzaremos muchas más a lo largo de las próximas semanas. </p>
+<p>Esta colaboración, al combinar lo mejor de los ecosistemas de Microsoft y PrestaShop, brinda a los vendedores un nuevo sistema para hacer crecer sus tiendas online. La sinergia de Microsoft y PrestaShop ofrece una solución flexible y global con un rendimiento mejorado para favorecer el crecimiento de los negocios de e-commerce.</p>
+<p>En propias palabras de Jean-Arnaud Eyme, responsable de CRM y UX digital en Olympique Lyonnais: “trabajar con Microsoft Azure y PrestaShop nos ha permitido crear una de las plataformas multicanal más avanzadas de e-commerce en la liga francesa de fútbol”.</p>
+<p>&#8220;Para Microsoft y PrestaShop es fundamental poner la tecnología más avanzada al alcance de todos los negocios, independientemente de su tamaño. Además, compartimos el afán por solventar los retos globales y creemos en la importancia de la comunidad&#8221; explica Jean-François Gomez, director de gestión empresarial de Microsoft. </p>
+<h2 style="color:#00adef">Microsoft Azure</h2>
+<p>¿En qué consiste Azure? Se trata de la solución en la nube de Microsoft, una plataforma compatible tanto con código abierto como software propietario, que se beneficia de los potentes centros de datos que Microsoft dirige en todo el mundo. Las tiendas de PrestaShop, desde las más pequeñas a las más grandes, pueden desarrollarse con el ecosistema Azure en unos pocos clics. Miles de usuarios, incluyendo a Cdiscount, el gigante francés de la venta online al por menor, pueden utilizar la solución estable y escalable global de Azure.</p>
+<h2 style="color:#00adef">Escalabilidad y disponibilidad</h2>
+<p>Los vendedores online saben que las tiendas de e-commerce están sujetas a las fluctuaciones estacionales con un tráfico que aumenta durante la temporada navideña y las ocasiones especiales. La infraestructura de Azure permite a las tiendas de PrestaShop adaptarse a la ingente demanda durante estos periodos de tráfico más intenso, así como volver a su estado original una vez concluidos. Azure resulta particularmente interesante para aquellos vendedores dispuestos a expandir sus negocios a nivel internacional. Está disponible en 140 países, las 24 horas del día y los 7 días de la semana. </p>
+<h2 style="color:#00adef">Nuevos Addons</h2>
+<p>Nuestra asociación con Microsoft abrirá a la comunidad de PrestaShop nuevas vías para aumentar sus ventas en línea. Nuestros equipos de I+D se han puesto manos a la obra para desarrollar nuevos Addons para Dynamics AX y O365, así como Addons ultrainnovadores basados en la inteligencia artificial y el aprendizaje automático. Los vendedores que ya utilicen otros productos de Microsoft verán mejorada su compatibilidad. Estate atento: ¡Pronto anunciaremos nuevos productos de lo más interesantes! </p>
+<p>Para más información, visita Azure Marketplace.<br />
+<a href="https://azure.microsoft.com/es-es/marketplace/partners/prestashop/" target="_blank">https://azure.microsoft.com/es-es/marketplace/partners/prestashop/</a></p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/prestashop-ya-esta-disponible-en-microsoft-azure-marketplace/">PrestaShop ya está disponible en Microsoft Azure Marketplace</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/es/prestashop-ya-esta-disponible-en-microsoft-azure-marketplace/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Ocho ideas geniales de contenidos para las redes sociales</title>
+		<link>https://www.prestashop.com/blog/es/ocho-ideas-geniales-de-contenidos-para-las-redes-sociales/</link>
+		<comments>https://www.prestashop.com/blog/es/ocho-ideas-geniales-de-contenidos-para-las-redes-sociales/#comments</comments>
+		<pubDate>Fri, 10 Jun 2016 08:30:07 +0000</pubDate>
+		<dc:creator><![CDATA[Julie Liu]]></dc:creator>
+				<category><![CDATA[Consejos E-commerce]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/es/?p=14603</guid>
+		<description><![CDATA[<p>Lo mejor de las redes sociales es que funcionan en tiempo real. No importa qué plataforma uses: siempre accedes a una comunidad online que se conecta y comparte información las 24 horas. ¿Te estás quedando sin ideas de contenidos para tus redes sociales y tu tienda? Aquí tienes ocho sugerencias para encontrar la inspiración. 1) [...]</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/ocho-ideas-geniales-de-contenidos-para-las-redes-sociales/">Ocho ideas geniales de contenidos para las redes sociales</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Lo mejor de las redes sociales es que funcionan en tiempo real. No importa qué plataforma uses: siempre accedes a una comunidad online que se conecta y comparte información las 24 horas. ¿Te estás quedando sin ideas de contenidos para tus redes sociales y tu tienda? Aquí tienes ocho sugerencias para encontrar la inspiración.<br />
+<span id="more-14603"></span> </p>
+<h2 style="color:#1cadcc">1) Los temas del momento</h2>
+<p>Aunque la página &#8220;What&#8217;s trending&#8221; de Facebook ha dado mucho que hablar últimamente, sigue siendo una ayuda magnífica para crear contenido. Y muchas de las plataformas que usan <em>hashtags</em> tienen un apartado de &#8220;tendencias&#8221; que puedes explorar. Eso sí: asegúrate de que entiendes lo que hay detrás del <em>trending topic</em>&#8230; sobre todo si se trata de un tema que puede tener implicaciones sociales o culturales. Cíñete a los temas relacionados con tu empresa y crea contenido que tu público vaya a disfrutar. </p>
+<h2 style="color:#1cadcc">2) Productos en acción</h2>
+<p>Tienes unos productos extraordinarios: presume de ellos. Saca todo tu arsenal y úsalo.  Si vendes ropa, póntela. ¿Juguetes? Llama a los niños. ¿Comida? Organiza una cena. Mostrar tus productos en acción da a tus clientes potenciales una idea más precisa de lo que pueden esperar de ellos. Si se ven a sí mismos usando tus artículos, es más probable que los compren. </p>
+<h2 style="color:#1cadcc">3) Entradas sobre estilo de vida</h2>
+<p>¿Qué tipo de clientes usan tus productos? Adapta el contenido de tus redes sociales a su estilo de vida. ¿Qué deberías publicar un domingo por la mañana? Si tus clientes son adictos al trabajo, seguramente ya se habrán tomado el café hace rato y estarán a pleno rendimiento. Si tus clientes son padres, es probable que estén en el parque jugando con sus hijos. Publica imágenes relacionadas con la vida de tu público objetivo para que se sientan más identificados con la marca. </p>
+<h2 style="color:#1cadcc">4) Temas de marca</h2>
+<p>¿Qué defiende tu marca? ¿Quieres dar más libertad a las mujeres? ¿Eres el paladín del <em>dolce far niente</em>? ¿Tienes alma de trotamundos? ¿Te apasiona la moda? Tus publicaciones en las redes sociales deben dejar claro a qué se dedica tu marca. Por ejemplo, la tienda PrestaShop <a href="https://www.prestashop.com/blog/es/galaxy-kayaks-como-usar-prestashop-para-vender-kayaks-de-pesca-por-toda-europa/">Galaxy Kayaks</a> fija su objetivo en la próxima captura&#8230; de pesca. Piensa en la razón de ser de tu marca y redacta una publicación sobre ese tema. </p>
+<h2 style="color:#1cadcc">5) Concursos &#8220;etiqueta a un amigo&#8221;</h2>
+<p>¿Te apetece hacer unos cuantos regalos y aumentar el número de seguidores? Los concursos de tipo &#8220;etiqueta a un amigo&#8221; son geniales para ampliar la audiencia y que los clientes hablen sobre tu marca. Solo necesitas un buen incentivo (colabora con los líderes de opinión para darle dimensiones épicas y ampliar tu alcance) y fijar la regla de que el cliente tiene que etiquetar a dos amigos para participar. ¡Y ya está! Ya tienes contenido, nuevos seguidores y más visibilidad. (No abuses de esta estrategia o acabarás rodeado de contactos cuyo único interés en tu marca son los regalos). </p>
+<h2 style="color:#1cadcc">6) Mini-infografías</h2>
+<p>Explica algo interesante o singular de un producto o de tu sector a través de una mini-infografía. A diferencia de las tradicionales, estas versiones en miniatura son fáciles de leer y compartir. ¡Si ya tienes alguna infografía hecha, selecciona lo más llamativo y reutiliza esa parte! </p>
+<h2 style="color:#1cadcc">7) Cultura de empresa</h2>
+<p>Muestra a los clientes el lado divertido de tu negocio. Las redes sociales, sobre todo LinkedIn, son el escaparate ideal para presentar el alma de tu empresa: su personal. ¿Soléis hacer cosas divertidas? Enséñaselo al mundo a través de las redes sociales. ¿Celebráis cumpleaños en la oficina? Publica fotos de la fiesta. En el contenido del día a día, cede el protagonismo a tus mejores empleados con vídeos breves o incluso alguna entrevista. </p>
+<h2 style="color:#1cadcc">8) Contenido generado por los usuarios</h2>
+<p><a href="https://www.prestashop.com/blog/es/3-motivos-por-los-que-el-contenido-generado-por-los-usuarios-ugc-es-positivo-para-el-comercio-electronico/">El contenido generado por los usuarios, o UGC</a>, es una de las fuentes de inspiración a las que menos atención prestamos. Y sin embargo, es una de las mejores. Imagina la posibilidad de subcontratar la creación de contenidos a personas que conocen y adoran tus productos&#8230; ¡gratis! Usando contenido generado por los usuarios no solo consigues publicaciones de calidad y gratuitas, también estrechas la relación con tus clientes. Sigue a tus clientes más leales y a los que compartan publicaciones que te gusten en las redes. Cuando encuentres algo sugerente, retuitéalo&#8230; o pídeles una nueva publicación. </p>
+<hr width="20%" align="left">
+¿Preparado para llevar estas ideas sobre redes sociales a la práctica? Déjanos un comentario y cuéntanos cuál te ha gustado más. ¿Todavía no tienes una tienda online que promocionar? ¡No esperes más! Lanza tu <a href="https://www.prestashop.com/es/">tienda online PrestaShop</a> hoy mismo. </p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/ocho-ideas-geniales-de-contenidos-para-las-redes-sociales/">Ocho ideas geniales de contenidos para las redes sociales</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/es/ocho-ideas-geniales-de-contenidos-para-las-redes-sociales/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Cómo crear una estrategia de Email Marketing de éxito en 5 sencillos pasos</title>
+		<link>https://www.prestashop.com/blog/es/como-crear-una-estrategia-de-email-marketing-de-exito-en-5-sencillos-pasos/</link>
+		<comments>https://www.prestashop.com/blog/es/como-crear-una-estrategia-de-email-marketing-de-exito-en-5-sencillos-pasos/#comments</comments>
+		<pubDate>Wed, 08 Jun 2016 06:30:39 +0000</pubDate>
+		<dc:creator><![CDATA[Los amigos de Preston]]></dc:creator>
+				<category><![CDATA[Consejos E-commerce]]></category>
+		<category><![CDATA[email marketing]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/es/?p=14485</guid>
+		<description><![CDATA[<p>Casa. 4 letras que significan mucho. Nuestra casa es el lugar en el que nos sentimos cómodos, donde nadie nos molesta, donde leemos nuestras cosas, donde recibimos a nuestros amigos, donde descansamos, donde nos divertimos… Hay muchos tipos de casa: de madera, de hielo, de paja, en altura, sobre el mar… y en internet. Si, [...]</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/como-crear-una-estrategia-de-email-marketing-de-exito-en-5-sencillos-pasos/">Cómo crear una estrategia de Email Marketing de éxito en 5 sencillos pasos</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p><span style="font-weight: 400">Casa. 4 letras que significan mucho.</span> <span style="font-weight: 400">Nuestra casa es el lugar en el que nos sentimos cómodos, donde nadie nos molesta, donde leemos nuestras cosas, donde recibimos a nuestros amigos, donde descansamos, donde nos divertimos… </span> <span style="font-weight: 400">Hay muchos tipos de casa: de madera, de hielo, de paja, en altura, sobre el mar… y en internet.</span> <span style="font-weight: 400">Si, <strong>en internet todos tenemos un lugar que es sólo nuestro</strong>, donde nos sentimos cómodos, dónde recibimos a nuestros amigos y dónde nadie debería molestarnos… </span> <span style="font-weight: 400"><strong>Ese lugar se llama… email</strong>.</span> <span id="more-14485"></span></p>
+<h2>¿Porqué el email marketing es imprescindible para tu negocio online?</h2>
+<p><span style="font-weight: 400">Datos: </span></p>
+<ul>
+<li style="font-weight: 400"><span style="font-weight: 400">Durante este año se estima que “sólo” </span><strong><a href="http://www.radicati.com/wp/wp-content/uploads/2012/04/Email-Statistics-Report-2012-2016-Executive-Summary.pdf">4,3 billones de personas</a> tendrán cuenta de email.</strong></li>
+</ul>
+<ul>
+<li style="font-weight: 400"><span style="font-weight: 400">De todas las personas que usan internet, </span><strong><a href="http://www.huffingtonpost.com/2012/03/27/email-connects-the-world_n_1381854.html">un 85% se comunican</a> utilizando el email.</strong></li>
+</ul>
+<ul>
+<li style="font-weight: 400"><a href="http://www.marketingcloud.com/blog/91-of-consumers-use-email-at-least-daily/"><span style="font-weight: 400">91% de nosotros</span></a><span style="font-weight: 400"> revisa su bandeja de entrada cada día.</span></li>
+</ul>
+<ul>
+<li>… (no quiero aburrir con más cifras)</li>
+</ul>
+<p><span style="font-weight: 400"> Apuesto mi tabla de surf a que el 100% de tus futuros compradores tienen y utilizan una cuenta de correo.</span> <span style="font-weight: 400"><strong>El email es el medio más personal que tenemos para comunicarnos en internet</strong>, es la “casa digital” de cada uno de nosotros. </span><span style="font-weight: 400">Facebook, twitter y compañía son guays, pero en cualquier momento pueden echarte, cambiar las condiciones… o desaparecer. </span> <span style="font-weight: 400">Tu lista de emails es tuya. No hay intermediarios entre tus suscriptores y tú.</span> <span style="font-weight: 400"><strong>Una visita a tu ecommerce que no compra se pierde para siempre.</strong> </span> <span style="font-weight: 400"><strong>Una visita que deja su email es tu oportunidad de contarle “cosas”</strong> para convencerle de que tus productos son lo que necesitan.</span> <span style="font-weight: 400">Después del post de leer este post no tendrás excusa para crear una estrategia de Email Marketing que ayude a aumentar las ventas en tu negocio.</span> <span style="font-weight: 400">El objetivo de cualquier estrategia de marketing es vender, la del Email Marketing también.</span> <span style="font-weight: 400">Para llegar a ese maravilloso momento has de seguir estos pasos: </span></p>
+<dl class="wp-caption alignnone" id="attachment_142216" style="width: 810px">
+<dt class="wp-caption-dt"><span style="color: #220e10;font-size: 18px;font-style: italic;font-weight: 300;line-height: 1.5;background-color: transparent">Crear una estrategia de Email Marketing es tan fácil cómo enviar un mensaje en una botella</span></dt>
+</dl>
+<p><a href="https://www.prestashop.com/blog/es/files/2016/05/mensaje-en-una-botella_opt1.jpg"><img class="alignnone size-full wp-image-14545" alt="Message in a Bottle" src="https://www.prestashop.com/blog/es/files/2016/05/mensaje-en-una-botella_opt1.jpg" width="800" height="533" /></a></p>
+<h2>Paso 1. Conoce al “dedillo” a quién quieres vender: Tu cliente ideal</h2>
+<p><span style="font-weight: 400;font-family: 'Source Sans Pro', Helvetica, sans-serif;font-size: 16px;line-height: 1.5">Si, el famoso cliente ideal. Ya sé que multitud de artículos inundan la web con este tema, pero es que es súper importante.</span> <span style="font-weight: 400">Conocer </span><a href="http://javierbarros.com/los-7-errores-epicos-que-puedes-cometer-cuando-describas-a-tu-cliente-ideal/"><span style="font-weight: 400">quién es tu cliente o clienta ideal</span></a><span style="font-weight: 400"> te va a permitir saber:</span></p>
+<ul>
+<li style="font-weight: 400"><b>Cuándo enviar tus emails</b><span style="font-weight: 400">. No es lo mismo que tu producto se dirija a emprendedores que a mamis. </span></li>
+</ul>
+<ul>
+<li style="font-weight: 400"><b>Qué contenido enviar en tus emails</b><span style="font-weight: 400">. Al conocer deseos, aficiones y motivaciones, tendrás mucho más claro qué escribir en cada correo.</span></li>
+</ul>
+<ul>
+<li style="font-weight: 400"><b>Cómo escribir cada correo</b><span style="font-weight: 400">. El lenguaje a utilizar no es igual si te diriges a directivos de empresa que si tu producto es para autónomos.</span></li>
+</ul>
+<p><span style="font-weight: 400">Piensa en el cliente ideal cómo la brújula de tu negocio. Ya sabes que sin brújula estás perdido.</span></p>
+<h2>Paso 2. Decide cuándo quieres vender: Tu calendario de venta.</h2>
+<h2><span style="font-weight: 400;font-family: 'Source Sans Pro', Helvetica, sans-serif;font-size: 16px;line-height: 1.5">¿Son las Navidades buenas para tu negocio? ¿En qué fechas vendes mejor cierto tipo de productos?</span></h2>
+<p><b>El calendario de venta es esencial, ya que toda tu estrategia de Email Marketing pivota alrededor de las fechas de venta.</b> <span style="font-weight: 400">Por ejemplo, si tienes un ecommerce de trajes de novia tus fecha fuerte será en Septiembre, por lo tu email deben empezar a hablar de lo “guay” que son tus vestidos desde antes del verano.</span> <span style="font-weight: 400">O es posible que tu negocio sea un ecommerce de bicicletas, por lo que tu punto álgido es justo cuando empieza la primavera. </span> <span style="font-weight: 400">O quizás vendes cosas para bebés y no hay una fecha más especial… tu tendrás que marcar las tuyas.</span> <span style="font-weight: 400">Sea cual sea tu caso, <strong>sin un calendario de venta tu estrategia de email marketing descarrilará.</strong></span></p>
+<h2>Paso 3. Crea un estrategia de contenidos que funcione.</h2>
+<p><span style="font-family: 'Source Sans Pro', Helvetica, sans-serif;font-size: 16px;line-height: 1.5">Para que una estrategia de contenidos funcione ha de tener estos tres tipos de email:</span></p>
+<h4>3.1. Contenido que aporte tanto valor que casi deberías cobrar por el.</h4>
+<p><span style="font-weight: 400">¿Cómo te aseguras que un correo tiene valor para tus suscriptores?</span></p>
+<ol>
+<li><b>Siendo útil </b><span style="font-weight: 400"> La forma más sencilla de compartir valor con tus suscriptores es dando algo que que necesitan: una guía para resolver un problema específico al que se enfrentan, un pdf con “como hacer algo”, o un cupón de descuento para un producto que desean.</span></li>
+<li><b> Siendo relevante</b><span style="font-weight: 400">: Si el correo electrónico se centra en un tema que preocupa a tus lectores -una de sus aficiones, problemas de su sector- , entonces estarás dando valor.</span></li>
+</ol>
+<h4>3.2. Envía contenido para crear relaciones con tus futuros clientes<span style="font-weight: 400">.</span></h4>
+<p><span style="font-weight: 400">Si no te conocen, no compran. Si no confian en ti, no compran. Si no hay relación , no compran.</span> <span style="font-weight: 400">Así de sencillo. </span> <span style="font-weight: 400">Y <a href="http://javierbarros.com/como-enamorar-clientes-email-marketing/">para construir una relación con tus suscriptores</a> tienes que: </span></p>
+<h5>Escribir tus emails como si fuera una conversación &#8220;cara a cara&#8221;.</h5>
+<p><span style="font-weight: 400">Con el email marketing tienes la oportunidad de sentarte a tomar una caña con tus futuros clientes cada vez que escribes un correo.</span><span style="font-weight: 400">Y con un caña de por medio no utilizas términos técnicos, o un tono de “conferenciante, o lenguaje muy corporativo, o la primera persona del plural…</span><span style="font-weight: 400">La idea es <strong>pensar que estás delante de un amigo al que quieres ayudar y escribirle de la misma manera en la que hablas.</strong></span></p>
+<h5>Escribir tus correos también para entretener, no sólo informar.</h5>
+<p><span style="font-weight: 400"><strong>La gente se apunta a tu lista por la información, pero continua si encuentra algo más: entretenimiento</strong>. </span><span style="font-weight: 400">¿Cómo eres entretenido? Contando historias, anécdotas,haciendo bromas, enviando contenido con interés humano, no abusando de datos, enseñando tu personalidad en la escritura…. siento tú mismo.</span></p>
+<h5>Escribir correos en los que pides “algo”</h5>
+<p><span style="font-weight: 400"><strong>El dinero no esta en la lista, esta en la relaciones que creas con tu lista</strong>.</span><span style="font-weight: 400">Una una relación siempre es en dos direcciones: Tu haces cosas por tu lista (informas, entretienes&#8230;) y ellos hacen cosas por ti.</span><span style="font-weight: 400"><strong>Y</strong> <strong>para que las personas actúen el secreto es… pedírselo</strong>. Simplemente diles lo que quieres que hagan.</span><span style="font-weight: 400">Puede ser responder una encuesta, contestar a una pregunta, compartir tu post… </span> <span style="font-weight: 400">Tu objetivo es enseñar a las personas que están en tu lista que las dos partes tenéis que trabajar en esa relación, para que ambas partes ganen. </span></p>
+<h2>Paso 4. Presionar el excitante botón de “enviar”</h2>
+<p><span style="font-weight: 400">Antes del glorioso momento de hacer clik, comprueba que: </span></p>
+<ul>
+<li><b><b>No puedes enviar tus campañas desde cualquier sitio</b><span style="font-weight: 400">. Elige un proveedor de correo fiable como mailchimp o aweber, que garantizan altas tasas de entrega</span></b></li>
+</ul>
+<ul>
+<li><b>Evita los filtros de spam</b><span style="font-weight: 400">: No utilices palabras como gratis, sexo, oferta…</span></li>
+</ul>
+<ul>
+<li style="font-weight: 400"><b>Crea asuntos irresistibles</b><span style="font-weight: 400">. Con la “guerra” que hay en las bandejas de entrada, sin </span><a href="http://javierbarros.com/la-formula-secreta-para-redactar-asuntos/"><span style="font-weight: 400">un buen asunto</span></a><span style="font-weight: 400"> tu correo está destinado a caer en el más absoluto de los olvidos.</span></li>
+</ul>
+<ul>
+<li style="font-weight: 400"><b>Un correo para todos los dispositivos</b><span style="font-weight: 400">. Cada vez con más frecuencia, los correos se leen desde tablets y móviles. No olvides comprobar que el email se ve bien para todos los “gadget”.</span></li>
+</ul>
+<ul>
+<li style="font-weight: 400"><span style="font-weight: 400"><strong>Revisa la ortografía y la gramática.</strong> Da muy buena imagen no tener faltas.</span></li>
+</ul>
+<p><span style="font-weight: 400">Por cierto&#8230; sentir un hormigueo en el estómago antes de hacer click en enviar es muy normal <img src="https://www.prestashop.com/blog/es/wp-includes/images/smilies/icon_wink.gif" alt=";)" class="wp-smiley" /> </span></p>
+<h2>Paso 5. Mide, comprueba lo que funciona y haz mucho de eso.</h2>
+<h2><span style="font-weight: 400;font-family: 'Source Sans Pro', Helvetica, sans-serif;font-size: 16px;line-height: 1.5">Utilizando un proveedor de Email Marketing podrás realizar un seguimiento de los correo electrónico que envíes. </span></h2>
+<p><span style="line-height: 1.5">Vas a saber<strong> quién abre cada correo, cuántas veces se abren, el número de cliks, cuántas personas se dan de baja…</strong></span> <span style="font-weight: 400">Utiliza todo estos datos para mejorar tus emails.</span> <span style="font-weight: 400">A medida que pase el tiempo sabrás que está funcionando bien para tu lista y en qué tienes que mejorar. <strong>Cuando encuentres lo que funciona, haz más de eso.</strong></span></p>
+<hr />
+<p>&nbsp;</p>
+<p><span style="font-weight: 400">Ya no hay excusas. Ya no hay miedos Tienes toda la info.</span> <span style="font-weight: 400"> Ya puedes empezar a utilizar todo el poder de los correos electrónicos</span> ¿A qué esperas para utilizar la magia del Email en tu negocio? Quiero leer tus comentarios para que me cuentes cómo utilizas el email marketing en tu negocio.</p>
+<p>Sobre el autor:</p>
+<p><img alt="Victor_campuzano" src="https://www.prestashop.com/blog/es/files/2016/05/Javi.jpg" width="300" height="200" /><br />
+Javier Barros ayuda a<strong style="line-height: 1.5"> empresas que quieren vender más en internet a utilizar toda la magia del email</strong><span style="line-height: 1.5"> para crear una conexión tan fuerte con sus clientes que nunca más volverán a pensar en la competencia.</span>Aunque es posible que en este momento esté haciendo yoga o paseando por algún parque de Madrid, tu <strong>puedes descargarte el ebook gratis &#8220;<em>Email Marketing Power</em>&#8221; que regala para los lectores del blog <a href="http://javierbarros.com/estrategia-email-prestashop">haciendo click aquí</a>.</strong>”</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/como-crear-una-estrategia-de-email-marketing-de-exito-en-5-sencillos-pasos/">Cómo crear una estrategia de Email Marketing de éxito en 5 sencillos pasos</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/es/como-crear-una-estrategia-de-email-marketing-de-exito-en-5-sencillos-pasos/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>La lista de control definitiva para la temporada de rebajas: 18 cosas que todo sitio web de e-commerce debería hacer</title>
+		<link>https://www.prestashop.com/blog/es/la-lista-de-control-definitiva-para-la-temporada-de-rebajas-18-cosas-que-todo-sitio-web-de-e-commerce-deberia-hacer/</link>
+		<comments>https://www.prestashop.com/blog/es/la-lista-de-control-definitiva-para-la-temporada-de-rebajas-18-cosas-que-todo-sitio-web-de-e-commerce-deberia-hacer/#comments</comments>
+		<pubDate>Fri, 03 Jun 2016 12:30:59 +0000</pubDate>
+		<dc:creator><![CDATA[Kate Robinson]]></dc:creator>
+				<category><![CDATA[Consejos E-commerce]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/es/?p=14595</guid>
+		<description><![CDATA[<p>La temporada de rebajas de verano está a la vuelta de la esquina, con la campaña de la vuelta al cole pisándole los talones. Para ayudar a las tiendas online a prepararse, hemos creado la lista de control definitiva para la temporada de rebajas con 18 cosas que todo sitio web de e-commerce debería hacer [...]</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/la-lista-de-control-definitiva-para-la-temporada-de-rebajas-18-cosas-que-todo-sitio-web-de-e-commerce-deberia-hacer/">La lista de control definitiva para la temporada de rebajas: 18 cosas que todo sitio web de e-commerce debería hacer</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p><strong style="color:#74c662">La temporada de rebajas de verano está</strong> a la vuelta de la esquina, con la campaña de la vuelta al cole pisándole los talones. Para ayudar a las tiendas online a prepararse, hemos creado la lista de control definitiva para la temporada de rebajas con 18 cosas que todo sitio web de e-commerce debería hacer para aprovechar al máximo esta época tan importante.<br />
+<span id="more-14595"></span><br />
+Según la National Retail Federation de Estados Unidos, se espera que las ventas por catálogo, en Internet y con dispositivos móviles aumenten entre un 6 % y un 9 % en 2016. De acuerdo con un informe de Kiplinger, las ventas en Internet representan aproximadamente un 10 % de todos los artículos vendidos en abril, casi un 2 % más que el año anterior. Con un aumento del 4,7 % en las ventas minoristas en general en comparación con 2015, se espera que los consumidores gasten más en ropa a medida que la economía mejora. Asegúrate de que tu tienda está preparada para responder al repunte en la confianza de los consumidores siguiendo nuestra lista de control para la temporada de rebajas.</p>
+<h2 style="color:#74c662">La lista de control definitiva para la temporada de rebajas:</h2>
+<ol>
+<li><strong style="color:#74c662">Optimiza tu tienda online para aumentar el tráfico de visitas</strong>. Cuanto más tráfico, más tardará en cargar tu sitio web. Una velocidad de carga lenta es la principal causa de la pérdida de ventas. Procura utilizar un <a href="https://www.prestashop.com/es/ecommerce-hosting" target="_blank">proveedor de alojamiento adecuado</a>, que pueda asegurar una <a href="http://addons.prestashop.com/es/432-rendimiento-sitio-web" target="_blank">velocidad de carga</a> rápida para mejorar el rendimiento de tu sitio web.</li>
+<li><strong style="color:#74c662">Llena el almacén.</strong> <a href="http://addons.prestashop.com/es/444-gestion-stock-proveedores" target="_blank">Pronostica las ventas</a> y asegúrate de tener suficientes existencias para satisfacer la gran demanda de la temporada.</li>
+<li><strong style="color:#74c662">Muestra una cuenta atrás</strong> en tu página de inicio para avisar a tus clientes de lo que está por venir y así aumentar la expectación en torno a tus superofertas. Disponible en la <a href="http://addons.prestashop.com/es/2221-countdown-specials.html" target="_blank">tienda oficial de PrestaShop</a>.</li>
+<li><strong style="color:#74c662">Piensa en la movilidad.</strong> Asegúrate de que tu sitio web cuenta con un diseño adaptativo y con un proceso de compra adaptado a los dispositivos móviles para que tus clientes puedan comprar desde cualquier lugar.</li>
+<li><strong style="color:#74c662">Ofrece la opción de envolver para regalo.</strong> La competencia lo hace y a los clientes les encanta. La funcionalidad para ofrecer la opción de <a href="https://www.prestashop.com/blog/es/cinco-ideas-faciles-para-envolver-regalos/">envolver para regalo</a> está disponible (gratis) en tu panel de administración de PrestaShop.</li>
+<li><strong style="color:#74c662">Ofrece opciones de envío rápido y envío gratuito</strong> y <a href="http://addons.prestashop.com/es/523-gastos-de-transporte" target="_blank">envía a tiempo</a>. El envío gratuito es lo que terminará de convencer a los clientes en busca de una ganga y los que dejen las compras para última hora se sentirán aliviados al ver las opciones de envío rápido.</li>
+<li><strong style="color:#74c662">Devoluciones gratuitas.</strong> Destaca la fantástica política de devoluciones de tu tienda online.</li>
+<li><strong style="color:#74c662">Empieza a enviar campañas de marketing por correo electrónico hoy mismo</strong> si aún no lo has hecho.</li>
+<li><strong style="color:#74c662">Ofrece promociones en las redes sociales</strong> con códigos especiales. A tus seguidores les encantará tener acceso a ofertas secretas. Disponible en la <a href="http://addons.prestashop.com/es/455-redes-sociales" target="_blank">tienda oficial de PrestaShop</a>.</li>
+<li><strong style="color:#74c662">Prueba tus promociones una y otra vez.</strong> No hay nada peor que encontrar una buena oferta&#8230; y que no funcione. </li>
+<li><strong style="color:#74c662">Crea páginas de aterrizaje con palabras clave específicas para las rebajas.</strong> Echa un vistazo a <a href="http://addons.prestashop.com/es/buscar?search_query=landing%20pages" target="_blank">PrestaShop Addons</a> para encontrar opciones de páginas de aterrizaje originales y crea entradas para tu blog relacionadas con la temporada.</li>
+<li><strong style="color:#74c662">Personaliza el diseño de tu tienda online con los</strong> <a href="http://addons.prestashop.com/es/61-temas-regalos-celebraciones" target="_blank">Temas PrestaShop</a> y ayuda a tus clientes a <a href="http://addons.prestashop.com/es/20844-etiqueta-de-producto.html" target="_blank">identificar fácilmente lo que está rebajado</a>!</li>
+<li><strong style="color:#74c662">La venta cruzada y la venta de productos de una gama superior</strong> son funcionalidades propias de PrestaShop, ¡aprovéchalas!</li>
+<li><strong style="color:#74c662">Crea categorías de regalos especiales</strong> (el regalo perfecto para él, para ella, para niños, etc.).</li>
+<li><strong style="color:#74c662">Promociona las suscripciones por correo electrónico</strong> y dales <a href="http://addons.prestashop.com/es/21278-pop-newsletter-popup.html" target="_blank">más visibilidad</a>: los clientes suelen suscribirse más en época de rebajas.</li>
+<li><strong style="color:#74c662">CONTROLA de forma activa</strong> tu panel de administración, tus redes sociales, tus correos electrónicos, etc. para evitar cualquier contratiempo en plena temporada.</li>
+<li><strong style="color:#74c662">Integra servicios de atención al cliente adicionales</strong> para que tus clientes puedan contactar contigo fácilmente. Incluye un <a href="http://addons.prestashop.com/es/477-asistencia-chat-online" target="_blank">chat en vivo</a>, números de teléfono, respuestas rápidas por correo electrónico, etc.</li>
+<li><strong style="color:#74c662">Ofrece un proceso rápido de compra.</strong> Los clientes quieren aprovechar al máximo todas las fantásticas ofertas que hay por Internet: <a href="http://addons.prestashop.com/es/509-proceso-rapido-compra" target="_blank">¡no les hagas perder el tiempo</a>!</li>
+</ol>
+<p><strong>Bola extra:</strong> plantéate activar una oferta que aparezca cuando los clientes estén a punto de abandonar tu tienda con <a href="http://addons.prestashop.com/es/21510-pop-exit-rettargeting-onsite-popup.html" target="_blank">Pop Exit</a>. ¿Sabías que el 25 % de estos clientes terminan sus compras gracias a este módulo? Si no funciona, siempre podrás recordarles los productos que añadieron al carrito con un <a href="http://addons.prestashop.com/es/16535-recordatorio-de-carritos-abandonados-pro.html" target="_blank">correo electrónico recordatorio de carritos abandonados</a>. ¡PrestaShop te acompaña en cada etapa!</p>
+<hr width="20%" align="left">
+<p>¿Cuántas cosas has tachado de tu lista para la temporada de rebajas? ¡Los comentarios están a tu disposición! </p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/la-lista-de-control-definitiva-para-la-temporada-de-rebajas-18-cosas-que-todo-sitio-web-de-e-commerce-deberia-hacer/">La lista de control definitiva para la temporada de rebajas: 18 cosas que todo sitio web de e-commerce debería hacer</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/es/la-lista-de-control-definitiva-para-la-temporada-de-rebajas-18-cosas-que-todo-sitio-web-de-e-commerce-deberia-hacer/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>4 consejos para realizar el SEO de tu sitio web de e-commerce con éxito</title>
+		<link>https://www.prestashop.com/blog/es/4-consejos-para-realizar-el-seo-de-tu-sitio-web-de-e-commerce-con-exito/</link>
+		<comments>https://www.prestashop.com/blog/es/4-consejos-para-realizar-el-seo-de-tu-sitio-web-de-e-commerce-con-exito/#comments</comments>
+		<pubDate>Tue, 31 May 2016 07:50:16 +0000</pubDate>
+		<dc:creator><![CDATA[Kate Robinson]]></dc:creator>
+				<category><![CDATA[Consejos E-commerce]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/es/?p=14490</guid>
+		<description><![CDATA[<p>Para sacar el máximo partido al SEO, tienes que pensar como tus clientes. Se trata de una inversión a largo plazo que merecerá la pena si te centras en ofrecer un proceso de compra eficaz. En el vídeo de hoy, Sylvain VIDAL, director de operaciones de SEO.FR, una agencia asociada de PrestaShop, resume el SEO [...]</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/4-consejos-para-realizar-el-seo-de-tu-sitio-web-de-e-commerce-con-exito/">4 consejos para realizar el SEO de tu sitio web de e-commerce con éxito</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Para sacar el máximo partido al SEO, tienes que pensar como tus clientes. Se trata de una inversión a largo plazo que merecerá la pena si te centras en ofrecer un proceso de compra eficaz. En el vídeo de hoy, Sylvain VIDAL, director de operaciones de <a href="https://www.seo.fr/en/" target="_blank">SEO.FR</a>, una agencia asociada de PrestaShop, resume el SEO para e-commerce en 4 sencillos pasos. Síguelos con atención y ¡estarás en el camino del éxito en muy poco tiempo!</p>
+<p><span id="more-14490"></span></p>
+<div class="g-ytsubscribe col-centered text-center" data-channelid="UCqDSbqSbkboMBARlYrhNa7g" data-layout="full" data-count="default"></div>
+<p><iframe width="700" height="394" src="https://www.youtube.com/embed/NnPEoE3MuHk?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<div class="text-center"><a class="btn" style="background-color: #cd201f; border: 1px solid #b31217; border-bottom: 3px solid #b31217; margin: 20px 0 0; color: #fff;" href="https://www.youtube.com/user/prestashop?utm_source=blog&amp;utm_medium=article&amp;utm_campaign=Youtube-launch&amp;utm_content=seofr" target="_blank"><i class="fa fa-youtube-play"></i> Ver más vídeos</a></div>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/4-consejos-para-realizar-el-seo-de-tu-sitio-web-de-e-commerce-con-exito/">4 consejos para realizar el SEO de tu sitio web de e-commerce con éxito</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/es/4-consejos-para-realizar-el-seo-de-tu-sitio-web-de-e-commerce-con-exito/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Caso de éxito de comercio electrónico: Monsieur Chaussure, experto en productos de cuidado para zapatos</title>
+		<link>https://www.prestashop.com/blog/es/caso-de-exito-de-comercio-electronico-monsieur-chaussure-experto-en-productos-de-cuidado-para-zapatos/</link>
+		<comments>https://www.prestashop.com/blog/es/caso-de-exito-de-comercio-electronico-monsieur-chaussure-experto-en-productos-de-cuidado-para-zapatos/#comments</comments>
+		<pubDate>Tue, 24 May 2016 08:00:30 +0000</pubDate>
+		<dc:creator><![CDATA[Kate Robinson]]></dc:creator>
+				<category><![CDATA[Consejos E-commerce]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/es/?p=14469</guid>
+		<description><![CDATA[<p>Cuando Charles Bellanné fundó Monsieur Chaussure hace cuatro años, soñaba con una tienda física. Por desgracia, tuvo que conformarse con un negocio online debido a la falta de recursos. En la actualidad, Monsieur Chaussure envía sus pedidos a más de cincuenta países diferentes, avalado por una comunidad de 35 000 clientes, ¡y cuenta con su [...]</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/caso-de-exito-de-comercio-electronico-monsieur-chaussure-experto-en-productos-de-cuidado-para-zapatos/">Caso de éxito de comercio electrónico: Monsieur Chaussure, experto en productos de cuidado para zapatos</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Cuando Charles Bellanné fundó <a href="https://www.monsieurchaussure.com/en/" target="_blank">Monsieur Chaussure</a> hace cuatro años, soñaba con una tienda física. Por desgracia, tuvo que conformarse con un negocio online debido a la falta de recursos. En la actualidad, <a href="https://www.monsieurchaussure.com/en/" target="_blank">Monsieur Chaussure</a> envía sus pedidos a más de cincuenta países diferentes, avalado por una comunidad de 35 000 clientes, ¡y cuenta con su propia tienda física! Descubre en el vídeo de hoy cómo un aficionado al calzado convirtió un vacío en el mercado en una empresa de éxito internacional con PrestaShop.<br />
+<span id="more-14469"></span></p>
+<div class="g-ytsubscribe col-centered text-center" data-channelid="UCqDSbqSbkboMBARlYrhNa7g" data-layout="full" data-count="default"></div>
+<p><iframe width="700" height="394" src="https://www.youtube.com/embed/SS0gWs8rXwQ?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<div class="text-center"><a class="btn" style="background-color: #cd201f;border: 1px solid #b31217;border-bottom: 3px solid #b31217;margin: 20px 0 0;color: #fff" href="https://www.youtube.com/user/prestashop?utm_source=blog&amp;utm_medium=article&amp;utm_campaign=Youtube-launch&amp;utm_content=monsieurchaussure" target="_blank"><i class="fa fa-youtube-play"></i> Ver más vídeos</a></div>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/caso-de-exito-de-comercio-electronico-monsieur-chaussure-experto-en-productos-de-cuidado-para-zapatos/">Caso de éxito de comercio electrónico: Monsieur Chaussure, experto en productos de cuidado para zapatos</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/es/caso-de-exito-de-comercio-electronico-monsieur-chaussure-experto-en-productos-de-cuidado-para-zapatos/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>3 consejos para crear tu sitio web de e-commerce con una agencia web</title>
+		<link>https://www.prestashop.com/blog/es/3-consejos-para-crear-tu-sitio-web-de-e-commerce-con-una-agencia-web/</link>
+		<comments>https://www.prestashop.com/blog/es/3-consejos-para-crear-tu-sitio-web-de-e-commerce-con-una-agencia-web/#comments</comments>
+		<pubDate>Tue, 17 May 2016 08:11:59 +0000</pubDate>
+		<dc:creator><![CDATA[Kate Robinson]]></dc:creator>
+				<category><![CDATA[Consejos E-commerce]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/es/?p=14466</guid>
+		<description><![CDATA[<p>Recurrir a una agencia web es una alternativa ideal para beneficiarse de sus conocimientos profesionales y crear un negocio online supereficaz. Sin embargo, también puede ser motivo de preocupaciones si no transmites las buenas directrices al equipo. Hoy, Armando Salvador, director de proyectos y formación en Ecomm360, nos explica algunos consejos para mejorar la comunicación [...]</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/3-consejos-para-crear-tu-sitio-web-de-e-commerce-con-una-agencia-web/">3 consejos para crear tu sitio web de e-commerce con una agencia web</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Recurrir a una agencia web es una alternativa ideal para beneficiarse de sus conocimientos profesionales y crear un negocio online supereficaz. Sin embargo, también puede ser motivo de preocupaciones si no transmites las buenas directrices al equipo. Hoy, Armando Salvador, director de proyectos y formación en Ecomm360, nos explica algunos consejos para mejorar la comunicación con tu agencia y aprovechar al máximo tu inversión.<br />
+<span id="more-14466"></span></p>
+<div class="g-ytsubscribe col-centered text-center" data-channelid="UCqDSbqSbkboMBARlYrhNa7g" data-layout="full" data-count="default"></div>
+<p><iframe width="700" height="394" src="https://www.youtube.com/embed/IjCDoA25Un0?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<div class="text-center"><a class="btn" style="background-color: #cd201f;border: 1px solid #b31217;border-bottom: 3px solid #b31217;margin: 20px 0 0;color: #fff" href="https://www.youtube.com/user/prestashop?utm_source=blog&#038;utm_medium=article&#038;utm_campaign=Youtube-launch&#038;utm_content=ecomm360" target="_blank"><i class="fa fa-youtube-play"></i> Ver más vídeos</a></div>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/3-consejos-para-crear-tu-sitio-web-de-e-commerce-con-una-agencia-web/">3 consejos para crear tu sitio web de e-commerce con una agencia web</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/es/3-consejos-para-crear-tu-sitio-web-de-e-commerce-con-una-agencia-web/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Cinco trucos fáciles para migrar una tienda online</title>
+		<link>https://www.prestashop.com/blog/es/cinco-trucos-faciles-para-migrar-una-tienda-online/</link>
+		<comments>https://www.prestashop.com/blog/es/cinco-trucos-faciles-para-migrar-una-tienda-online/#comments</comments>
+		<pubDate>Thu, 12 May 2016 08:30:56 +0000</pubDate>
+		<dc:creator><![CDATA[Los amigos de Preston]]></dc:creator>
+				<category><![CDATA[Consejos E-commerce]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/es/?p=14458</guid>
+		<description><![CDATA[<p>Hoy está con nosotros Taras Kopchak, director de Marketing en Cart2Cart, quien compartirá con nosotros algunos trucos para que la migración de tu tienda online sea más fácil y segura. 1. Escoge el momento adecuado Analiza las estadísticas de tu tienda y escoge el momento con menor tráfico. Así evitarás perder ingresos y ahorrarás a [...]</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/cinco-trucos-faciles-para-migrar-una-tienda-online/">Cinco trucos fáciles para migrar una tienda online</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Hoy está con nosotros Taras Kopchak, director de Marketing en <a href="https://www.prestashop.com/es/industry-partners/management/cart2cart">Cart2Cart</a>, quien compartirá con nosotros algunos trucos para que la migración de tu tienda online sea más fácil y segura.<br />
+<span id="more-14458"></span> </p>
+<h2 style="color:#88B854;">1. Escoge el momento adecuado</h2>
+<p>Analiza las estadísticas de tu tienda y escoge el momento con menor tráfico. Así evitarás perder ingresos y ahorrarás a tus clientes posibles inconvenientes, especialmente si tienes previsto poner la tienda en modo mantenimiento durante el proceso de migración. En la mayoría de las tiendas, el tráfico suele caer los fines de semana y aumentar en mitad de la semana. Sin embargo, a menudo depende de los productos y servicios que ofrezcas. Así pues, asegúrate de verificarlo a través de Google Analytics.</p>
+<h2 style="color:#88B854;">2. Haz una copia de seguridad</h2>
+<p>Realiza una copia de seguridad para garantizar que tus datos estén a salvo si surge algún imprevisto. Esto es especialmente importante si vas a migrar una tienda de forma manual. No obstante, incluso si automatizas el proceso de migración con servicios como <a href="https://www.prestashop.com/es/industry-partners/management/cart2cart">Cart2Cart</a>, que simplemente copian y mantienen los datos tal cual, recomendamos hacer una copia de seguridad de la información antes de llevar a cabo manipulaciones importantes en tu tienda online. Puedes usar herramientas como phpMyAdmin, una opción de copia de seguridad de tu proveedor de hosting, o la integrada en el panel de administración de tu tienda actual. </p>
+<h2 style="color:#88B854;">3. Elabora una estrategia SEO</h2>
+<p>Muchas tiendas sufren una caída temporal del tráfico orgánico tras su migración. Esto suele deberse a la pérdida de metainformación y a los cambios en las URL. Trabaja en tu estrategia SEO posterior a la migración para minimizar estos efectos temporales.<br />
+Aunque servicios como <a href="https://www.prestashop.com/es/industry-partners/management/cart2cart">Cart2Cart</a> te permiten migrar las URL SEO en la mayoría de los carritos, a veces resulta sencillamente imposible mantener las URL antiguas. Si es el caso, te recomendamos que programes redireccionamientos de las URL de tu tienda antigua a las nuevas, de tal modo que los usuarios puedan acceder a la nueva versión de tu tienda a través de los enlaces anteriores con total facilidad. Para ello, deberás crear redireccionamientos 301, que te ayudarán a conservar tus clasificaciones actuales en los buscadores. De lo contrario, en sus próximos escaneos de webs, los robots de Google encontrarán numerosas páginas 404 que generarán tráfico negativo. (Este problema se resuelve solo, sin necesidad de hacer nada, pero si adoptamos una actitud proactiva, podremos evitar caídas importantes en el tráfico de tu tienda).</p>
+<h2 style="color:#88B854;">4. Permite el modo mantenimiento</h2>
+<p><em>(Recomendado aunque no obligatorio)</em><br />
+Para asegurarte de que los datos se transfieren con precisión y sin contratiempos, es más que probable que quieras poner tu tienda original en modo mantenimiento durante la migración. De esta forma, te asegurarás de que nada afecte al proceso de transferencia de datos, al tiempo que informas a tus visitantes de que estás llevando a cabo una labor de mantenimiento en tu web. Sin embargo, si usas <a href="https://www.prestashop.com/es/industry-partners/management/cart2cart">Cart2Cart</a>, existe una posibilidad de mantener tu tienda activa para los clientes sin la preocupación de que algo pueda salir mal. Puesto que la migración automatizada no afecta al funcionamiento de tu tienda actual, puedes seguir llevando a cabo tu actividad sin contratiempos durante todo el procedimiento de migración. ¡Sin tiempos muertos! </p>
+<h2 style="color:#88B854;">5. Prueba tu tienda</h2>
+<p>Definitivamente, tu tienda recién migrada precisará algunos ajustes después de la transferencia de datos, así que es muy probable que sigas vendiendo a través de tu tienda antigua durante algún tiempo más. Naturalmente, en este caso recibirás nuevas entidades durante o después de la migración, como nuevos pedidos o nuevos clientes. Si recurres a un servicio como <a href="https://www.prestashop.com/es/industry-partners/management/cart2cart">Cart2Cart</a>, puedes migrar estas entidades utilizando el servicio adicional de Migración de Datos Recientes, que te permite transferir datos nuevos incorporados exclusivamente después de la transferencia de datos inicial. Cuesta la mitad del precio de una migración estándar y puede realizarse varias veces, siempre que lo necesites.</p>
+<h2 style="color:#88B854;">En pocas palabras</h2>
+<p>La migración de carritos de la compra siempre supone un gran reto que exige un enfoque complejo y meditado. Aunque la transferencia de datos en sí puede simplificarse en gran medida con la ayuda de servicios automatizados como <a href="https://www.prestashop.com/es/industry-partners/management/cart2cart">Cart2Cart</a>, el cambio de plataforma no termina con la última entidad migrada. El cambio cualitativo ha de estar precedido y seguido de determinadas tareas destinadas a configurar y ajustar hasta el más mínimo detalle de tu nueva tienda online tal y como la quieres. ¡Buena suerte!</p>
+<h2 style="color:#88B854;">Estimación de migración de plataforma de e-commerce</h2>
+<p>Si estás listo/a para empezar a migrar tu tienda online a la última versión de PrestaShop, echa un vistazo a este simulador de precios. Es una herramienta fantástica para ayudarte a decidir si quieres realizar una migración manual o si prefieres un servicio automatizado: </p>
+<link rel="stylesheet" href="https://app.shopping-cart-migration.com/libs/estimator/style.css" />
+<div id="estimator"></div>
+<p><script async>
+	var script = document.createElement("script");
+	script.type  = "text/javascript";
+	script.id    = "estimator-js";
+	script.src   = "https://app.shopping-cart-migration.com/libs/estimator/script.js";
+	script.async = true;
+	script.setAttribute("requiredTargetIds", "PrestaShop,PrestaShopCloud");
+	var s = document.getElementsByTagName("script")[0];
+	s.parentNode.insertBefore(script, s);
+</script></p>
+<p><a href="https://www.prestashop.com/es/industry-partners/management/cart2cart">Cart2Cart</a> es un destacado servicio automatizado de migración de carritos con más de 6 años de trayectoria y miles de migraciones y clientes satisfechos a sus espaldas. El servicio soporta más de 65 plataformas de e-commerce y permite a los usuarios trasferir productos, clientes, pedidos y datos adicionales en unas pocas horas.</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/cinco-trucos-faciles-para-migrar-una-tienda-online/">Cinco trucos fáciles para migrar una tienda online</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/es/cinco-trucos-faciles-para-migrar-una-tienda-online/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Historia de éxito del e-commerce: descubre cómo Tealer conquistó un mercado de camisetas exclusivo</title>
+		<link>https://www.prestashop.com/blog/es/historia-de-exito-del-e-commerce-descubre-como-tealer-conquisto-un-mercado-de-camisetas-exclusivo/</link>
+		<comments>https://www.prestashop.com/blog/es/historia-de-exito-del-e-commerce-descubre-como-tealer-conquisto-un-mercado-de-camisetas-exclusivo/#comments</comments>
+		<pubDate>Tue, 10 May 2016 07:00:21 +0000</pubDate>
+		<dc:creator><![CDATA[mvalenza]]></dc:creator>
+				<category><![CDATA[Consejos E-commerce]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/es/?p=14451</guid>
+		<description><![CDATA[<p>Tealer es una marca francesa de ropa con estilo casual. La empresa comenzó con una tienda física y, en 2012, decidió complementarla con una versión online gracias a PrestaShop. En la actualidad, su web representa la mitad de sus ingresos, y no ha dejado de crecer en los últimos tres años. ¡Tan solo en 2015, [...]</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/historia-de-exito-del-e-commerce-descubre-como-tealer-conquisto-un-mercado-de-camisetas-exclusivo/">Historia de éxito del e-commerce: descubre cómo Tealer conquistó un mercado de camisetas exclusivo</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p><a href="http://www.tealer.fr/en/" target="_blank">Tealer</a> es una marca francesa de ropa con estilo casual. La empresa comenzó con una tienda física y, en 2012, decidió complementarla con una versión online gracias a PrestaShop. En la actualidad, su web representa la mitad de sus ingresos, y no ha dejado de crecer en los últimos tres años. ¡Tan solo en 2015, registraron 15 000 nuevos clientes! </p>
+<p>Alex, el fundador, y Popsy, su Community Manager, nos cuentan todo sobre el crecimiento de esta empresa familiar utilizando el software de e-commerce de código abierto de PrestaShop y algunas prácticas de marketing recomendadas.<br />
+<span id="more-14451"></span></p>
+<div class="g-ytsubscribe col-centered text-center" data-channelid="UCqDSbqSbkboMBARlYrhNa7g" data-layout="full" data-count="default"></div>
+<p><iframe width="700" height="394" src="https://www.youtube.com/embed/C5r61UcpW9M?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<div class="text-center"><a class="btn" style="background-color: #cd201f;border: 1px solid #b31217;border-bottom: 3px solid #b31217;margin: 20px 0 0;color: #fff" href="https://www.youtube.com/user/prestashop?utm_source=blog&#038;utm_medium=article&#038;utm_campaign=Youtube-launch&#038;utm_content=tealer" target="_blank"><i class="fa fa-youtube-play"></i> Ver más vídeos</a></div>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/historia-de-exito-del-e-commerce-descubre-como-tealer-conquisto-un-mercado-de-camisetas-exclusivo/">Historia de éxito del e-commerce: descubre cómo Tealer conquistó un mercado de camisetas exclusivo</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/es/historia-de-exito-del-e-commerce-descubre-como-tealer-conquisto-un-mercado-de-camisetas-exclusivo/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Cómo usar el UGC para mejorar la experiencia de cliente</title>
+		<link>https://www.prestashop.com/blog/es/como-usar-el-ugc-para-mejorar-la-experiencia-de-cliente/</link>
+		<comments>https://www.prestashop.com/blog/es/como-usar-el-ugc-para-mejorar-la-experiencia-de-cliente/#comments</comments>
+		<pubDate>Wed, 04 May 2016 08:30:51 +0000</pubDate>
+		<dc:creator><![CDATA[Los amigos de Preston]]></dc:creator>
+				<category><![CDATA[Consejos E-commerce]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/es/?p=14425</guid>
+		<description><![CDATA[<p>El contenido generado por los usuarios, o UGC, puede ser un verdadero imán para atraer compradores a tu web de comercio electrónico. Puedes incorporar el UGC a tus páginas de diversas maneras para llegar a los compradores en las distintas fases del proceso de compra. En esta entrada nos centraremos más específicamente en cómo incorporar [...]</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/como-usar-el-ugc-para-mejorar-la-experiencia-de-cliente/">Cómo usar el UGC para mejorar la experiencia de cliente</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p><a href="http://www.prestashop.com/blog/es/">El contenido generado por los usuarios, o UGC, puede ser un verdadero imán para atraer compradores a tu web de comercio electrónico</a>. Puedes incorporar el UGC a tus páginas de diversas maneras para llegar a los compradores en las distintas fases del proceso de compra. En esta entrada nos centraremos más específicamente en cómo incorporar el UGC a tu tienda online.<br />
+<span id="more-14425"></span> </p>
+<h2 style="color:#e00f2f">1. Recurre a contenido generado por líderes de opinión para potenciar la notoriedad de tu producto</h2>
+<p>El marketing basado en líderes de opinión está ganando fuelle, dado que las marcas y los vendedores online buscan nuevas vías para dar a conocer sus negocios, recurriendo a líderes de opinión como canal para llegar a clientes nuevos. La premisa es muy sencilla: identificar a líderes de opinión en tu categoría de producto, conseguir que prueben tu oferta y animarlos a compartir sus experiencias con sus seguidores. Para completar el círculo, incorpora este contenido a tu web de comercio electrónico para que los compradores puedan descubrir tus productos a través de los testimonios de estos líderes de opinión. </p>
+<p>Ésta es exactamente la estrategia empleada por The Body Shop UK para difundir su nueva línea de tratamiento: la firma incorporó a su tienda online UGC a modo de reseñas de productos en vídeo realizadas por blogueros de belleza líderes de opinión. </p>
+<p><img src="https://www.prestashop.com/blog/es/files/2016/04/Screen-Shot-2016-03-29-at-18.28.33.png" alt="Screen Shot 2016-03-29 at 18.28.33" width="1598" height="1228" class="alignright size-full wp-image-21570" /></p>
+<p>Este enfoque funciona para presentar nuevos productos así como para promocionar los diferentes artículos que mejor se venden. Lo usan tanto grandes multinacionales como pequeños vendedores online </p>
+<h2 style="color:#e00f2f">2. Utiliza UGC de tipo reseña para convertir a los visitantes que buscan comprar de forma activa</h2>
+<p>Cuando los compradores sopesan activamente sus opciones y se plantean seguir adelante con una compra, el mejor modo para darles un sutil empujoncito hacia adelante en este proceso es brindarles contenido que fomente la confianza y disminuya la ansiedad y la tensión. Las reseñas de productos generan, por término medio, <a href="https://econsultancy.com/blog/9366-ecommerce-consumer-reviews-why-you-need-them-and-how-to-use-them/" target="_blank">un incremento del 18% en las ventas</a> y animan a un 63% de los compradores a finalizar sus compras. Junto con el UGC visual, son una potente arma para impulsar las conversiones en tus páginas de productos. </p>
+<p>Un UGC auténtico que refleje cómo ha funcionado un determinado producto para otros compradores puede ayudarles a disipar sus dudas y convencerlos de que lleven a cabo la compra. Plantéate incorporar UGC a modo de reseñas en vídeo desde YouTube o fotografías de “antes” y “después” desde Instagram, tal y como hace Benefit Cosmetics en el siguiente ejemplo. </p>
+<p><img src="https://www.prestashop.com/blog/es/files/2016/04/Screen-Shot-2016-03-29-at-18.35.06.png" alt="Screen Shot 2016-03-29 at 18.35.06" width="1340" height="1218" class="aligncenter size-full wp-image-21567" /></p>
+<p>También puedes ir un paso más allá e incorporar vídeos de unboxing (que muestran la &#8220;ceremonia&#8221; de abrir el paquete que el comprador ha recibido) o vídeos comparativos realizados por seguidores familiarizados con tu marca para compartir lo que verdaderamente piensan sobre el producto y proyectar tu confianza en el producto como vendedor. En el siguiente ejemplo, la firma europea de artículos deportivos Sneaker 10 emplea esta estrategia para ayudar a los compradores a visualizar mejor sus compras. Esto hace que la experiencia de compra online sea lo más real posible, muy similar a la que brinda una tienda física. </p>
+<p><img src="https://www.prestashop.com/blog/es/files/2016/04/Screen-Shot-2016-03-29-at-18.16.26.png" alt="Screen Shot 2016-03-29 at 18.16.26" width="1460" height="1202" class="aligncenter size-full wp-image-21568" /></p>
+<h2 style="color:#e00f2f">3. Recurre a UGC en formato tutorial para ayudar a los compradores después de la compra</h2>
+<p>Las experiencias de compra online verdaderamente destacables tienen en cuenta no sólo a los visitantes nuevos, sino también a los que vuelven a tu web para obtener más información después de la compra. El UGC también puede resultar útil en este ámbito.</p>
+<p>Los compradores valoran mucho los tutoriales y demostraciones a cargo de clientes, especialmente en formato vídeo. Este tipo de contenido resulta fácil de asimilar y ayuda a los compradores a superar el miedo a usar mal el producto. Webs como YouTube están atestadas de UGC a modo de <a href="http://blog.goodvid.io/how-online-retailers-can-leverage-how-to-video-content/" target="_blank">tutoriales</a> y su demanda aumenta en un <a href="https://www.thinkwithgoogle.com/articles/i-want-to-do-micro-moments.html" target="_blank">70%</a> interanual.</p>
+<p>Por ejemplo, la tienda online de Tassimo UK cuenta con UGC a modo de tutoriales en vídeo para mostrar el correcto uso de las máquinas de café de la marca y cómo los usuarios se hacen deliciosos cafés.</p>
+<p><img src="https://www.prestashop.com/blog/es/files/2016/04/Screen-Shot-2016-03-29-at-18.22.19.png" alt="Screen Shot 2016-03-29 at 18.22.19" width="1450" height="1230" class="aligncenter size-full wp-image-21569" /></p>
+<p>Este tipo de contenido supone un excelente punto de referencia para los compradores, ya que les incita a volver a la web si tienen dudas. </p>
+<h4 style="color:#c52d3a">Qué tener en cuenta al usar UGC en una tienda online</h4>
+<p>Ahora que ya te hemos convencido de que usar contenido generado por usuarios puede ayudarte a mejorar la experiencia de cliente a lo largo de toda la interacción, queremos darte unos cuantos consejos prácticos que deberás tener en cuenta cuando decidas introducir UGC en las páginas de tu tienda online. </p>
+<ul style="padding-left: 30px">
+<li><strong>Anima a los compradores a crear contenido.</strong> Aunque hay muchísimo contenido generado por usuarios en las redes sociales, es importante que los compradores sepan que aceptas sus aportaciones para enriquecer tu web. Pónselo fácil para que compartan con los demás sus reseñas de productos, fotografías y vídeos en tus páginas. De este modo, mejorarás la experiencia de cliente abriendo las puertas de la comunicación y las opiniones con tus compradores y mostrando un sincero interés por su satisfacción en lo que a tus productos respecta.</li>
+<li><strong>No te limites a recopilar UGC, ¡selecciona!</strong> Con tanta abundancia de UGC, podrías caer en la tentación de utilizar en tus páginas tanto contenido como sea posible. Sin embargo, el truco reside no sólo en recopilar, sino también en seleccionar cuidadosamente el UGC que incorpores a tu web. Sólo queremos el contenido de mejor calidad y que esté alineado con tu marca para causar buena impresión entre tus visitantes.</li>
+<li><strong>Reconoce el mérito de los usuarios.</strong> Los creadores de contenido invierten tiempo y esfuerzo en hacer esas magníficas fotos y vídeos que te gustaría usar en tu tienda online. Así que, antes de lanzarte a utilizarlo, asegúrate de que no les importa. Las distintas redes sociales podrían tener diferentes políticas de contenido, así que asegúrate de comprobar las opciones a tu alcance de antemano.</li>
+<li><strong>Comprueba que el contenido se cargue rápido y bien.</strong> En lo relativo a la experiencia de cliente en el ámbito del comercio electrónico, el tiempo que tarda en cargar una página puede marcar la diferencia entre satisfacción o todo lo contrario. No te compensa sacrificar la velocidad y la precisión por incluir UGC en tus páginas. Asegúrate de que el contenido se cargue rápido y se visualice correctamente en tu web, también en la versión móvil de tu tienda online.</li>
+<li><strong>Analiza lo que funciona.</strong> No basta con incorporar el UGC a las páginas de tu tienda online, también hay que analizar si funciona o no con el paso del tiempo. ¿Tienen los vídeos generados por usuarios mayores tasas de clics que las fotos de Instagram? ¿Registran las páginas con UGC tasas de conversión superiores que aquellas que no tienen este tipo de contenido? Realiza comprobaciones y experimentos para determinar lo que funciona mejor en tu web y qué tipo de UGC genera la mejor respuesta en términos de participación y ventas entre tus compradores.</li>
+</ul>
+<h2 style="color:#e00f2f">Conclusión</h2>
+<p>El contenido generado por usuarios puede hacer que la experiencia de cliente en tu tienda online sea más auténtica, satisfactoria y fiable. Comparte con tus clientes fotos y vídeos generados por usuarios que les vayan a gustar y que les ayuden a mantenerse informados. Prueba nuevas plataformas para racionalizar el proceso de identificar, seleccionar, integrar y optimizar el UGC en tus páginas. Te ayudarán a hacerlo bien y a superar las expectativas de los clientes en lo que a compra online se refiere.</p>
+<h4 style="color:#c52d3a">Sobre la autora</h4>
+<p><img src="https://www.prestashop.com/blog/es/files/2016/04/miljana-mitic.png" alt="miljana-mitic" width="150" height="150" class="alignleft size-thumbnail wp-image-21560" /></p>
+<p>Miljana Mitic es la directora de Marketing de contenidos de <a href="https://goodvid.io/" target="_blank">Goodvidio</a>, una solución de Software como un Servicio (SaaS, por sus siglas en inglés), que ayuda a que las tiendas online implementen los mejores vídeos de productos de las redes sociales en sus páginas de productos. Miljana posee un doctorado en Marketing de redes sociales y escribe acerca de cómo las tiendas online pueden sacar el máximo provecho de los vídeos de productos. Le encanta descubrir nuevos restaurantes, leer, jugar con perros y ver vídeos de YouTube.</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/como-usar-el-ugc-para-mejorar-la-experiencia-de-cliente/">Cómo usar el UGC para mejorar la experiencia de cliente</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/es/como-usar-el-ugc-para-mejorar-la-experiencia-de-cliente/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

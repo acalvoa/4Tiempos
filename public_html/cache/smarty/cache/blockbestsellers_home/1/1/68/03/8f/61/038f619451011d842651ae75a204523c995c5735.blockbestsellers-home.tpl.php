@@ -16,16 +16,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     ),
   ),
   'nocache_hash' => '1499211980576094a8d984c6-90200973',
-  'variables' => 
-  array (
-    'best_sellers' => 0,
-  ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_576094a8dec7b7_58357095',
+  'unifunc' => 'content_57620d442e9693_16378531',
+  'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_576094a8dec7b7_58357095')) {function content_576094a8dec7b7_58357095($_smarty_tpl) {?>		
+<?php if ($_valid && !is_callable('content_57620d442e9693_16378531')) {function content_57620d442e9693_16378531($_smarty_tpl) {?>		
 									
 		
 	
@@ -106,74 +102,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 			<div class="product-container" itemscope itemtype="https://schema.org/Product">
 				<div class="left-block">
 					<div class="product-image-container">
-						<a class="product_img_link" href="http://testing.4tiempos.cl/index.php?id_product=3&amp;controller=product" title="Vestido estampado" itemprop="url">
-							<img class="replace-2x img-responsive" src="http://testing.4tiempos.cl/img/p/8/8-home_default.jpg" alt="Vestido estampado" title="Vestido estampado"  width="250" height="250" itemprop="image" />
-						</a>
-													<div class="quick-view-wrapper-mobile">
-							<a class="quick-view-mobile" href="http://testing.4tiempos.cl/index.php?id_product=3&amp;controller=product" rel="http://testing.4tiempos.cl/index.php?id_product=3&amp;controller=product">
-								<i class="icon-eye-open"></i>
-							</a>
-						</div>
-						<a class="quick-view" href="http://testing.4tiempos.cl/index.php?id_product=3&amp;controller=product" rel="http://testing.4tiempos.cl/index.php?id_product=3&amp;controller=product">
-							<span>Vista r&aacute;pida</span>
-						</a>
-																			<div class="content_price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
-																	<span itemprop="price" class="price product-price">
-										
-										30,94 $									</span>
-									<meta itemprop="priceCurrency" content="CLP" />
-																												<span class="unvisible">
-																								<link itemprop="availability" href="https://schema.org/InStock" />En stock																					</span>
-																		
-									
-															</div>
-																			<a class="new-box" href="http://testing.4tiempos.cl/index.php?id_product=3&amp;controller=product">
-								<span class="new-label">Nuevo</span>
-							</a>
-																	</div>
-										
-				</div>
-				<div class="right-block">
-					<h5 itemprop="name">
-												<a class="product-name" href="http://testing.4tiempos.cl/index.php?id_product=3&amp;controller=product" title="Vestido estampado" itemprop="url" >
-							Vestido estampado
-						</a>
-					</h5>
-															<p class="product-desc" itemprop="description">
-						Vestido doble estampado 100% algodón. Top de rayas negras y blancas y falda skater naranja de cintura alta.
-					</p>
-										<div class="content_price">
-													
-							<span class="price product-price">
-								30,94 $							</span>
-														
-							
-							
-											</div>
-										<div class="button-container">
-																													<a class="button ajax_add_to_cart_button btn btn-default" href="http://testing.4tiempos.cl/index.php?controller=cart&amp;add=1&amp;id_product=3&amp;ipa=13&amp;token=487be6bcd26762d1777435483c9c04e3" rel="nofollow" title="A&ntilde;adir al carrito" data-id-product-attribute="13" data-id-product="3" data-minimal_quantity="1">
-									<span>A&ntilde;adir al carrito</span>
-								</a>
-																			<a class="button lnk_view btn btn-default" href="http://testing.4tiempos.cl/index.php?id_product=3&amp;controller=product" title="Ver">
-							<span>M&aacute;s</span>
-						</a>
-					</div>
-										<div class="product-flags">
-																														</div>
-																		<span class="availability">
-																	<span class=" label-success">
-										En stock									</span>
-															</span>
-															</div>
-							</div><!-- .product-container> -->
-		</li>
-			
-		
-		
-								<li class="ajax_block_product col-xs-12 col-sm-4 col-md-3 last-item-of-tablet-line first-item-of-mobile-line">
-			<div class="product-container" itemscope itemtype="https://schema.org/Product">
-				<div class="left-block">
-					<div class="product-image-container">
 						<a class="product_img_link" href="http://testing.4tiempos.cl/index.php?id_product=1&amp;controller=product" title="Camiseta efecto desteñido de manga corta" itemprop="url">
 							<img class="replace-2x img-responsive" src="http://testing.4tiempos.cl/img/p/1/1-home_default.jpg" alt="Camiseta efecto desteñido de manga corta" title="Camiseta efecto desteñido de manga corta"  width="250" height="250" itemprop="image" />
 						</a>
@@ -223,6 +151,74 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 									<span>A&ntilde;adir al carrito</span>
 								</a>
 																			<a class="button lnk_view btn btn-default" href="http://testing.4tiempos.cl/index.php?id_product=1&amp;controller=product" title="Ver">
+							<span>M&aacute;s</span>
+						</a>
+					</div>
+										<div class="product-flags">
+																														</div>
+																		<span class="availability">
+																	<span class=" label-success">
+										En stock									</span>
+															</span>
+															</div>
+							</div><!-- .product-container> -->
+		</li>
+			
+		
+		
+								<li class="ajax_block_product col-xs-12 col-sm-4 col-md-3 last-item-of-tablet-line first-item-of-mobile-line">
+			<div class="product-container" itemscope itemtype="https://schema.org/Product">
+				<div class="left-block">
+					<div class="product-image-container">
+						<a class="product_img_link" href="http://testing.4tiempos.cl/index.php?id_product=3&amp;controller=product" title="Vestido estampado" itemprop="url">
+							<img class="replace-2x img-responsive" src="http://testing.4tiempos.cl/img/p/8/8-home_default.jpg" alt="Vestido estampado" title="Vestido estampado"  width="250" height="250" itemprop="image" />
+						</a>
+													<div class="quick-view-wrapper-mobile">
+							<a class="quick-view-mobile" href="http://testing.4tiempos.cl/index.php?id_product=3&amp;controller=product" rel="http://testing.4tiempos.cl/index.php?id_product=3&amp;controller=product">
+								<i class="icon-eye-open"></i>
+							</a>
+						</div>
+						<a class="quick-view" href="http://testing.4tiempos.cl/index.php?id_product=3&amp;controller=product" rel="http://testing.4tiempos.cl/index.php?id_product=3&amp;controller=product">
+							<span>Vista r&aacute;pida</span>
+						</a>
+																			<div class="content_price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+																	<span itemprop="price" class="price product-price">
+										
+										30,94 $									</span>
+									<meta itemprop="priceCurrency" content="CLP" />
+																												<span class="unvisible">
+																								<link itemprop="availability" href="https://schema.org/InStock" />En stock																					</span>
+																		
+									
+															</div>
+																			<a class="new-box" href="http://testing.4tiempos.cl/index.php?id_product=3&amp;controller=product">
+								<span class="new-label">Nuevo</span>
+							</a>
+																	</div>
+										
+				</div>
+				<div class="right-block">
+					<h5 itemprop="name">
+												<a class="product-name" href="http://testing.4tiempos.cl/index.php?id_product=3&amp;controller=product" title="Vestido estampado" itemprop="url" >
+							Vestido estampado
+						</a>
+					</h5>
+															<p class="product-desc" itemprop="description">
+						Vestido doble estampado 100% algodón. Top de rayas negras y blancas y falda skater naranja de cintura alta.
+					</p>
+										<div class="content_price">
+													
+							<span class="price product-price">
+								30,94 $							</span>
+														
+							
+							
+											</div>
+										<div class="button-container">
+																													<a class="button ajax_add_to_cart_button btn btn-default" href="http://testing.4tiempos.cl/index.php?controller=cart&amp;add=1&amp;id_product=3&amp;ipa=13&amp;token=487be6bcd26762d1777435483c9c04e3" rel="nofollow" title="A&ntilde;adir al carrito" data-id-product-attribute="13" data-id-product="3" data-minimal_quantity="1">
+									<span>A&ntilde;adir al carrito</span>
+								</a>
+																			<a class="button lnk_view btn btn-default" href="http://testing.4tiempos.cl/index.php?id_product=3&amp;controller=product" title="Ver">
 							<span>M&aacute;s</span>
 						</a>
 					</div>

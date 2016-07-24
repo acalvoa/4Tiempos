@@ -1,0 +1,142 @@
+/* Top hook CSS */
+#htmlcontent_top {
+  padding: 0 15px 5px; }
+  @media (max-width: 767px) {
+    #htmlcontent_top {
+      width: 101%;
+      max-width: 100.1%;
+      padding: 0 0 5px; } }
+  @media (max-width: 767px) {
+    #htmlcontent_top ul {
+      margin: -1px 0 0 0; } }
+  #htmlcontent_top ul li {
+    float: left;
+    overflow: hidden;
+    width: 33.334%; }
+    @media (max-width: 1199px) {
+      #htmlcontent_top ul li {
+        width: 33.33%; } }
+    @media (max-width: 991px) {
+      #htmlcontent_top ul li {
+        width: 33.332%; } }
+    @media (max-width: 480px) {
+      #htmlcontent_top ul li {
+        width: 100%;
+        max-width: 100%;
+        float: none; } }
+    #htmlcontent_top ul li a {
+      position: relative;
+      overflow: hidden;
+      display: block; }
+      @media (min-width: 1200px) {
+        #htmlcontent_top ul li a:hover img {
+          -moz-transform: scale(1.2);
+          -webkit-transform: scale(1.2);
+          -o-transform: scale(1.2);
+          transform: scale(1.2); } }
+      #htmlcontent_top ul li a:hover {
+        z-index: 1; }
+      @media (min-width: 1199px) {
+        #htmlcontent_top ul li a:hover h3 {
+          background: rgba(244, 24, 24, 0);
+          margin-left: 142px; } }
+      @media (min-width: 1199px) {
+        #htmlcontent_top ul li a:hover h2 {
+          background: #f41818;
+          padding: 0 12px;
+          margin: 10px 0 8px 50px; } }
+      @media (max-width: 1199px) {
+        #htmlcontent_top ul li a:hover h3 {
+          background: rgba(244, 24, 24, 0);
+          color: #fd1919; } }
+      #htmlcontent_top ul li a div {
+        left: 7.4%;
+        padding: 0 20px 20px 0;
+        position: absolute;
+        top: 13%;
+        width: 70%; }
+        @media (max-width: 1199px) {
+          #htmlcontent_top ul li a div {
+            top: 10%; } }
+        @media (max-width: 767px) {
+          #htmlcontent_top ul li a div {
+            top: 19%; } }
+        @media (max-width: 480px) {
+          #htmlcontent_top ul li a div {
+            top: 13%; } }
+        #htmlcontent_top ul li a div h3 {
+          font: 900 2.385em/1em "Lato", sans-serif;
+          color: white;
+          letter-spacing: -1px;
+          padding: 0 3px 3px;
+          background: #f41818;
+          display: inline-block;
+          text-transform: uppercase;
+          -webkit-transition: all 0.2s ease;
+          -moz-transition: all 0.2s ease;
+          -ms-transition: all 0.2s ease;
+          -o-transition: all 0.2s ease;
+          transition: all 0.2s ease;
+          margin: 0; }
+          @media (max-width: 1199px) {
+            #htmlcontent_top ul li a div h3 {
+              font-size: 2em; } }
+          @media (max-width: 767px) {
+            #htmlcontent_top ul li a div h3 {
+              font-size: 1.5em; } }
+          @media (max-width: 480px) {
+            #htmlcontent_top ul li a div h3 {
+              font-size: 2.385em; } }
+        #htmlcontent_top ul li a div h2 {
+          display: inline-block;
+          background: rgba(244, 24, 24, 0);
+          font: 900 4.077em/1em "Lato", sans-serif;
+          color: white;
+          -webkit-transition: all 0.3s ease;
+          -moz-transition: all 0.3s ease;
+          -ms-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+          margin: 0 0 0 -3px;
+          padding: 0;
+          text-transform: uppercase;
+          letter-spacing: -1.8px; }
+          @media (max-width: 1199px) {
+            #htmlcontent_top ul li a div h2 {
+              font-size: 2.8em; } }
+          @media (max-width: 767px) {
+            #htmlcontent_top ul li a div h2 {
+              font-size: 2.5em; } }
+          @media (max-width: 480px) {
+            #htmlcontent_top ul li a div h2 {
+              font-size: 3em;
+              display: block;
+              margin: 0; } }
+        #htmlcontent_top ul li a div p {
+          font: 400 0.923em/1.6em "Roboto", sans-serif;
+          color: white;
+          width: 205px;
+          margin-top: 5px; }
+          @media (max-width: 767px) {
+            #htmlcontent_top ul li a div p {
+              display: none; } }
+          @media (max-width: 480px) {
+            #htmlcontent_top ul li a div p {
+              display: block; } }
+        #htmlcontent_top ul li a div:last-child {
+          margin-bottom: 0; }
+      #htmlcontent_top ul li a img {
+        max-width: 100%;
+        height: auto;
+        -webkit-transition: all 0.2s linear;
+        -moz-transition: all 0.2s linear;
+        -o-transition: all 0.2s linear;
+        -ms-transition: all 0.2s linear;
+        transition: all 0.2s linear; }
+        @media (max-width: 480px) {
+          #htmlcontent_top ul li a img {
+            width: 100%; } }
+
+/* Left hook CSS */
+/* Right hook CSS */
+/* Footer hook CSS */

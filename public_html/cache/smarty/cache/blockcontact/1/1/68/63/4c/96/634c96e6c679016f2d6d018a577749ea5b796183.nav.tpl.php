@@ -11,14 +11,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'nocache_hash' => '1889924966576094a97dbed5-44940320',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_57620d444894a0_72956637',
+  'unifunc' => 'content_5791e828da7e29_29447055',
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_57620d444894a0_72956637')) {function content_57620d444894a0_72956637($_smarty_tpl) {?><div id="contact-link" >
+<?php if ($_valid && !is_callable('content_5791e828da7e29_29447055')) {function content_5791e828da7e29_29447055($_smarty_tpl) {?><div id="contact-link" >
 	<a href="http://testing.4tiempos.cl/index.php?controller=contact" title="Contacte con nosotros">Contacte con nosotros</a>
 </div>
-	<span class="shop-phone">
-		<i class="icon-phone"></i>Llámanos ahora: <strong>0123-456-789</strong>
-	</span>
 <?php }} ?>

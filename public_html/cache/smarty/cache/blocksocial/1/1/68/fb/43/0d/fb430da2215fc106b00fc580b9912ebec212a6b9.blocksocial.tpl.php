@@ -11,33 +11,23 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'nocache_hash' => '64511659576094a8ede594-38593787',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_57620d4434ad09_86217843',
+  'unifunc' => 'content_5791e828c114e8_15165303',
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_57620d4434ad09_86217843')) {function content_57620d4434ad09_86217843($_smarty_tpl) {?><section id="social_block" class="pull-right">
+<?php if ($_valid && !is_callable('content_5791e828c114e8_15165303')) {function content_5791e828c114e8_15165303($_smarty_tpl) {?><section id="social_block" class="pull-right">
 	<ul>
 					<li class="facebook">
-				<a class="_blank" href="http://www.facebook.com/prestashop">
+				<a class="_blank" href="https://www.facebook.com/4tiempos/">
 					<span>Facebook</span>
 				</a>
 			</li>
-							<li class="twitter">
-				<a class="_blank" href="http://www.twitter.com/prestashop">
-					<span>Twitter</span>
-				</a>
-			</li>
-							<li class="rss">
-				<a class="_blank" href="http://www.prestashop.com/blog/en/">
-					<span>RSS</span>
-				</a>
-			</li>
-		                        	<li class="google-plus">
-        		<a class="_blank" href="https://www.google.com/+prestashop" rel="publisher">
-        			<span>Google Plus</span>
+						                                                	<li class="instagram">
+        		<a class="_blank" href="https://www.instagram.com/tienda4tiempos/">
+        			<span>Instagram</span>
         		</a>
         	</li>
-                                	</ul>
+        	</ul>
     <h4>Síganos</h4>
 </section>
 <div class="clearfix"></div>

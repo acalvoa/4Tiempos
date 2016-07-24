@@ -11,11 +11,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'nocache_hash' => '306709322576094a9301ac0-25309475',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_57620d443dddd1_23969906',
+  'unifunc' => 'content_5791e828d106e0_68254581',
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_57620d443dddd1_23969906')) {function content_57620d443dddd1_23969906($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5791e828d106e0_68254581')) {function content_5791e828d106e0_68254581($_smarty_tpl) {?>
 <!-- Block myaccount module -->
 <section class="footer-block col-xs-12 col-sm-4">
 	<h4><a href="http://testing.4tiempos.cl/index.php?controller=my-account" title="Administrar mi cuenta de cliente" rel="nofollow">Mi cuenta</a></h4>

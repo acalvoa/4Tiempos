@@ -11,15 +11,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'nocache_hash' => '737755739576094a8405e86-25402334',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_57620d43f23876_07088944',
+  'unifunc' => 'content_5791f1f72bf699_13332883',
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_57620d43f23876_07088944')) {function content_57620d43f23876_07088944($_smarty_tpl) {?><div id="fb-root"></div>
+<?php if ($_valid && !is_callable('content_5791f1f72bf699_13332883')) {function content_5791f1f72bf699_13332883($_smarty_tpl) {?><div id="fb-root"></div>
 <div id="facebook_block" class="col-xs-4">
 	<h4 >Síguenos en Facebook</h4>
 	<div class="facebook-fanbox">
-		<div class="fb-like-box" data-href="https://www.facebook.com/prestashop" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="false" data-show-border="false">
+		<div class="fb-like-box" data-href="https://www.facebook.com/4tiempos" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="false" data-show-border="false">
 		</div>
 	</div>
 </div>

@@ -11,27 +11,25 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'nocache_hash' => '1402489274576094a93c9825-40493025',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_57620d44405ca5_10322723',
+  'unifunc' => 'content_5791e828d42d03_15258521',
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_57620d44405ca5_10322723')) {function content_57620d44405ca5_10322723($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5791e828d42d03_15258521')) {function content_5791e828d42d03_15258521($_smarty_tpl) {?>
 <!-- MODULE Block contact infos -->
 <section id="block_contact_infos" class="footer-block col-xs-12 col-sm-4">
 	<div>
         <h4>Información sobre la tienda</h4>
         <ul class="toggle-footer">
                         	<li>
-            		<i class="icon-map-marker"></i>My Company, 42 Puffin street
-12345 Puffinville
-France            	</li>
+            		<i class="icon-map-marker"></i>4Tiempos SpA., Av. Libertador Bernardo O&#039;Higgins 1302            	</li>
                                     	<li>
             		<i class="icon-phone"></i>Llámanos ahora: 
-            		<span>0123-456-789</span>
+            		<span>+569 5019 0094</span>
             	</li>
                                     	<li>
             		<i class="icon-envelope-alt"></i>Email: 
-            		<span><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%73%61%6c%65%73@%79%6f%75%72%63%6f%6d%70%61%6e%79.%63%6f%6d" >&#x73;&#x61;&#x6c;&#x65;&#x73;&#x40;&#x79;&#x6f;&#x75;&#x72;&#x63;&#x6f;&#x6d;&#x70;&#x61;&#x6e;&#x79;&#x2e;&#x63;&#x6f;&#x6d;</a></span>
+            		<span><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%76%65%6e%74%61%73@%34%74%69%65%6d%70%6f%73.%63%6c" >&#x76;&#x65;&#x6e;&#x74;&#x61;&#x73;&#x40;&#x34;&#x74;&#x69;&#x65;&#x6d;&#x70;&#x6f;&#x73;&#x2e;&#x63;&#x6c;</a></span>
             	</li>
                     </ul>
     </div>

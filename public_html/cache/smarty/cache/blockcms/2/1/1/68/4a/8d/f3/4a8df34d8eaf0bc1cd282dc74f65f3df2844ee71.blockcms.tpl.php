@@ -11,11 +11,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'nocache_hash' => '2087848246576094a9160c16-54018465',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_57620d443bed20_62695035',
+  'unifunc' => 'content_5791f12a8db7c5_52301976',
   'has_nocache_code' => true,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_57620d443bed20_62695035')) {function content_57620d443bed20_62695035($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5791f12a8db7c5_52301976')) {function content_5791f12a8db7c5_52301976($_smarty_tpl) {?>
 	<!-- Block CMS module footer -->
 	<section class="footer-block col-xs-12 col-sm-2" id="block_various_links_footer">
 		<h4>Información</h4>
@@ -45,14 +45,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 					Contacte con nosotros
 				</a>
 			</li>
-															<li class="item">
-						<a href="http://testing.4tiempos.cl/index.php?id_cms=3&amp;controller=cms" title="Términos y condiciones">
-							Términos y condiciones
-						</a>
-					</li>
-																<li class="item">
-						<a href="http://testing.4tiempos.cl/index.php?id_cms=4&amp;controller=cms" title="Sobre nosotros">
-							Sobre nosotros
+																						<li class="item">
+						<a href="http://testing.4tiempos.cl/index.php?id_cms=4&amp;controller=cms" title="Nosotros">
+							Nosotros
 						</a>
 					</li>
 													<li>

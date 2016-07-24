@@ -11,11 +11,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'nocache_hash' => '1507817942576094a7baee77-79443389',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5791e98a11e1b0_49844808',
+  'unifunc' => 'content_57953162494d94_70200875',
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5791e98a11e1b0_49844808')) {function content_5791e98a11e1b0_49844808($_smarty_tpl) {?><!-- Block search module TOP -->
+<?php if ($_valid && !is_callable('content_57953162494d94_70200875')) {function content_57953162494d94_70200875($_smarty_tpl) {?><!-- Block search module TOP -->
 <div id="search_block_top" class="col-sm-4 clearfix">
 	<form id="searchbox" method="get" action="//testing.4tiempos.cl/index.php?controller=search" >
 		<input type="hidden" name="controller" value="search" />

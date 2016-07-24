@@ -11,11 +11,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'nocache_hash' => '1889924966576094a97dbed5-44940320',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5791e828da7e29_29447055',
+  'unifunc' => 'content_579530f8c82df8_11250623',
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5791e828da7e29_29447055')) {function content_5791e828da7e29_29447055($_smarty_tpl) {?><div id="contact-link" >
+<?php if ($_valid && !is_callable('content_579530f8c82df8_11250623')) {function content_579530f8c82df8_11250623($_smarty_tpl) {?><div id="contact-link" >
 	<a href="http://testing.4tiempos.cl/index.php?controller=contact" title="Contacte con nosotros">Contacte con nosotros</a>
 </div>
 <?php }} ?>

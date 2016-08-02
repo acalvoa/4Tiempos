@@ -95,11 +95,11 @@ $(document).ready(function(){
 	$('.sf-menu').append('<div id="animate-box"></div>');
 	var left = $('.sf-menu > li:last a').parent().position().left;
 	var width = $('.sf-menu > li:last a').width();
-		
+	$('ul.sf-menu').superfish();
 	$('#animate-box').css({'left' : left, 'width' : width});
 	$('#animate-box').stop().animate({'opacity' : '0'});
 	$('.sf-menu > li > a').hover(function(){
-	 
+	 	
 		var left = $(this).parent().position().left;
 		var width = $(this).width();
 		

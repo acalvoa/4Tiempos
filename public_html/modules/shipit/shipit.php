@@ -22,7 +22,9 @@ class Shipit extends CarrierModule{
 
     public function    install(){}
     public function    uninstall(){}
-    public function    getContent(){}
+    public function    getContent(){
+        $this->_html .= '<h2>'.$this->displayName.'.</h2>';
+    }
     private function   _postValidation(){}
     private function   _postProcess(){}
     private function   _displayForm(){}

@@ -28,13 +28,15 @@ class Shipit extends CarrierModule{
     }
     public function    getContent(){
         $this->_html .= '<h2>'.$this->displayName.'.</h2>';
+        $this->_html .= '<h2>'.$this->displayName.'.</h2>';
+        $this->_html .= '<h2>'.$this->displayName.'.</h2>';
+        $this->_html .= '<h2>'.$this->displayName.'.</h2>';
     }
     private function   _postValidation(){}
     private function   _postProcess(){}
     private function   _displayForm(){}
     public function    hookDisplayHeader($params){}
     public function    hookDisplayFooter($params){}
-    private function   _hex2rgb($hex) {}
     public function getOrderShippingCost($params, $shipping_cost){}
     public function getOrderShippingCostExternal($params){}
 

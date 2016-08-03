@@ -28,9 +28,7 @@ class Shipit extends CarrierModule{
     }
     public function    getContent(){
         $this->_html .= '<h2>'.$this->displayName.'.</h2>';
-        $this->_html .= '<h2>'.$this->displayName.'.</h2>';
-        $this->_html .= '<h2>'.$this->displayName.'.</h2>';
-        $this->_html .= '<h2>'.$this->displayName.'.</h2>';
+        return $this->_html;
     }
     private function   _postValidation(){}
     private function   _postProcess(){}

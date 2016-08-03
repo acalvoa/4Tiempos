@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-06-14 22:18:19
+<?php /* Smarty version Smarty-3.1.19, created on 2016-07-26 17:18:13
          compiled from "/home/testing.4tiempos.cl/public_html/admin8872/themes/default/template/controllers/login/content.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:15804589015760baeb4dfb35-88841710%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:4708828585797d395b44188-70018865%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '15804589015760baeb4dfb35-88841710',
+  'nocache_hash' => '4708828585797d395b44188-70018865',
   'function' => 
   array (
   ),
@@ -34,9 +34,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5760baeb5d8d28_71982030',
+  'unifunc' => 'content_5797d395c35251_26708851',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5760baeb5d8d28_71982030')) {function content_5760baeb5d8d28_71982030($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_date_format')) include '/home/testing.4tiempos.cl/public_html/tools/smarty/plugins/modifier.date_format.php';
+<?php if ($_valid && !is_callable('content_5797d395c35251_26708851')) {function content_5797d395c35251_26708851($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_date_format')) include '/home/testing.4tiempos.cl/public_html/tools/smarty/plugins/modifier.date_format.php';
 ?>
 <div id="login-panel">
 	<div id="login-header">

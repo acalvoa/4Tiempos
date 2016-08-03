@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-06-15 14:02:12
+<?php /* Smarty version Smarty-3.1.19, created on 2016-07-26 21:42:23
          compiled from "/home/testing.4tiempos.cl/public_html/modules/gamification/views/templates/admin/gamification/helpers/view/view_bt.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1136377064576198240bce72-04652340%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:9143490555798117f5c68a1-68447865%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'f20fe2ddaa32a8b8d0ec819b92572f158378029b' => 
     array (
       0 => '/home/testing.4tiempos.cl/public_html/modules/gamification/views/templates/admin/gamification/helpers/view/view_bt.tpl',
-      1 => 1465944311,
+      1 => 1469400431,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1136377064576198240bce72-04652340',
+  'nocache_hash' => '9143490555798117f5c68a1-68447865',
   'function' => 
   array (
   ),
@@ -26,9 +26,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_576198241ab0a2_99715276',
+  'unifunc' => 'content_5798117f6a92d4_71319561',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_576198241ab0a2_99715276')) {function content_576198241ab0a2_99715276($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5798117f6a92d4_71319561')) {function content_5798117f6a92d4_71319561($_smarty_tpl) {?>
 <script>
 	var current_level_percent_tab = <?php echo intval($_smarty_tpl->tpl_vars['current_level_percent']->value);?>
 ;

@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-06-15 11:01:58
+<?php /* Smarty version Smarty-3.1.19, created on 2016-07-28 19:41:12
          compiled from "/home/testing.4tiempos.cl/public_html/admin8872/themes/default/template/controllers/payment/helpers/view/view.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:90819976857616de6f24f88-98719062%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1640314823579a9818cf3766-22143004%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -23,7 +23,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '90819976857616de6f24f88-98719062',
+  'nocache_hash' => '1640314823579a9818cf3766-22143004',
   'function' => 
   array (
   ),
@@ -34,9 +34,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_57616de715f854_03549371',
+  'unifunc' => 'content_579a9818e86d15_09844014',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_57616de715f854_03549371')) {function content_57616de715f854_03549371($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_579a9818e86d15_09844014')) {function content_579a9818e86d15_09844014($_smarty_tpl) {?>
 
 <div class="leadin"></div>
 
@@ -69,8 +69,8 @@ $_smarty_tpl->tpl_vars['list']->_loop = true;
 ?>
 				<?php /*  Call merged included template "controllers/payment/restrictions.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('controllers/payment/restrictions.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '90819976857616de6f24f88-98719062');
-content_57616de7024d43_39590268($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('controllers/payment/restrictions.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '1640314823579a9818cf3766-22143004');
+content_579a9818d33de4_91067390($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "controllers/payment/restrictions.tpl" */?>
 			<?php } ?>
@@ -105,9 +105,9 @@ if (!empty($_capture_buffer)) {
 
 <?php }?>
 <?php }} ?>
-<?php /* Smarty version Smarty-3.1.19, created on 2016-06-15 11:01:59
+<?php /* Smarty version Smarty-3.1.19, created on 2016-07-28 19:41:12
          compiled from "/home/testing.4tiempos.cl/public_html/admin8872/themes/default/template/controllers/payment/restrictions.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_57616de7024d43_39590268')) {function content_57616de7024d43_39590268($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_579a9818d33de4_91067390')) {function content_579a9818d33de4_91067390($_smarty_tpl) {?>
 
 <form action="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['url_submit']->value, ENT_QUOTES, 'UTF-8', true);?>
 " method="post" id="form_<?php echo $_smarty_tpl->tpl_vars['list']->value['name_id'];?>

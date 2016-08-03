@@ -2,7 +2,7 @@
 <module>
 	<name>homefeatured</name>
 	<displayName><![CDATA[Productos Destacados en la P&aacute;gina de inicio]]></displayName>
-	<version><![CDATA[1.8.0]]></version>
+	<version><![CDATA[1.8.1]]></version>
 	<description><![CDATA[Mostrar Productos Destacados en el centro de su p&aacute;gina de inicio.]]></description>
 	<author><![CDATA[PrestaShop]]></author>
 	<tab><![CDATA[front_office_features]]></tab>

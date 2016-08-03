@@ -2,7 +2,7 @@
 <module>
 	<name>blockfacebook</name>
 	<displayName><![CDATA[Bloque caja Facebook Me Gusta]]></displayName>
-	<version><![CDATA[1.4.0]]></version>
+	<version><![CDATA[1.4.1]]></version>
 	<description><![CDATA[Muestra un bloque para suscribirse a su p&aacute;gina de Facebook.]]></description>
 	<author><![CDATA[PrestaShop]]></author>
 	<tab><![CDATA[front_office_features]]></tab>

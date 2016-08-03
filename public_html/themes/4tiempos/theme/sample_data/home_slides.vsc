@@ -1,6 +1,0 @@
-"Slide ID";Active;Position;Description;Title;Legend;Url;Image
-1;1;0;;"Sample 1";sample-1;index.php?id_category=5&controller=category;0601231fa11baaabbdbf6bd4206381ddf52092a7_slide1.jpg
-2;1;0;;"Sample 2";sample-2;index.php?id_category=4&controller=category;e11127dc5c4ab7087e0db0799fc8ab0a8c6f4eb9_slide2.jpg
-3;1;0;;"Sample 3";sample-3;index.php?id_category=3&controller=category;7e3b2c64452bcc5238c833bc455c013172736839_slide3.jpg
-4;1;0;;"Sample 4";sample-4;index.php?id_category=6&controller=category;a16ebc94d070ffc780dc79dc755de3bd24c5e44a_slide4.jpg
-5;1;0;;"Sample 5";sample-5;index.php?id_category=8&controller=category;54b8ebaed86b70f44d35ae75829422b11369bffc_slide5.jpg

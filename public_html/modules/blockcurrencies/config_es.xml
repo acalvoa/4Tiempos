@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <module>
 	<name>blockcurrencies</name>
-	<displayName><![CDATA[Bloque de divisa]]></displayName>
-	<version><![CDATA[0.4.0]]></version>
+	<displayName><![CDATA[Bloque de moneda]]></displayName>
+	<version><![CDATA[0.4.1]]></version>
 	<description><![CDATA[A&ntilde;adir bloque para selecci&oacute;n de moneda]]></description>
 	<author><![CDATA[PrestaShop]]></author>
 	<tab><![CDATA[front_office_features]]></tab>

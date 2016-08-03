@@ -2,7 +2,7 @@
 <module>
 	<name>blocksupplier</name>
 	<displayName><![CDATA[Bloque proveedor]]></displayName>
-	<version><![CDATA[1.2.0]]></version>
+	<version><![CDATA[1.2.1]]></version>
 	<description><![CDATA[A&ntilde;adir un bloque que muestre sus proveedores.]]></description>
 	<author><![CDATA[PrestaShop]]></author>
 	<tab><![CDATA[front_office_features]]></tab>

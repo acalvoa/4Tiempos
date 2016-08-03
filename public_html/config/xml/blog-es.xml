@@ -13,12 +13,83 @@
 	<atom:link href="http://www.prestashop.com/blog/es/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.prestashop.com/blog/es</link>
 	<description></description>
-	<lastBuildDate>Thu, 21 Jul 2016 07:19:22 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 01 Aug 2016 07:34:06 +0000</lastBuildDate>
 	<language>es-ES</language>
 		<sy:updatePeriod>hourly</sy:updatePeriod>
 		<sy:updateFrequency>1</sy:updateFrequency>
 	<generator>http://wordpress.org/?v=3.8.1</generator>
 	<item>
+		<title>¿Qué es el formato Accelerated Mobile Pages (AMP) y cómo puede ayudar a mi web?</title>
+		<link>https://www.prestashop.com/blog/es/que-es-el-formato-accelerated-mobile-pages-amp-y-como-puede-ayudar-mi-web/</link>
+		<comments>https://www.prestashop.com/blog/es/que-es-el-formato-accelerated-mobile-pages-amp-y-como-puede-ayudar-mi-web/#comments</comments>
+		<pubDate>Mon, 01 Aug 2016 07:31:45 +0000</pubDate>
+		<dc:creator><![CDATA[Los amigos de Preston]]></dc:creator>
+				<category><![CDATA[Consejos E-commerce]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/es/?p=14824</guid>
+		<description><![CDATA[<p>El planeta no ha tardado en acostumbrarse a la iniciativa de código abierto de Google: Accelerated Mobile Pages (AMP). Este proyecto, destinado a mejorar el rendimiento de las webs móviles, ha contado con la colaboración de varios de los gigantes de la industria tecnológica. Pero, ¿en qué consiste la iniciativa AMP, cómo afecta a tu [...]</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/que-es-el-formato-accelerated-mobile-pages-amp-y-como-puede-ayudar-mi-web/">¿Qué es el formato Accelerated Mobile Pages (AMP) y cómo puede ayudar a mi web?</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>El planeta no ha tardado en acostumbrarse a la iniciativa de código abierto de Google: Accelerated Mobile Pages (AMP). Este proyecto, destinado a mejorar el rendimiento de las webs móviles, ha contado con la colaboración de varios de los gigantes de la industria tecnológica.</p>
+<p><span id="more-14824"></span></p>
+<p>Pero, ¿en qué consiste la iniciativa AMP, cómo afecta a tu estrategia de SEO y qué ventajas puede ofrecer a tu web? Sigue leyendo para descubrir la respuesta.</p>
+<p><a href="https://www.prestashop.com/blog/es/files/2016/07/1-amp.jpg"><img class=" wp-image-14825 alignnone" alt="1 amp" src="https://www.prestashop.com/blog/es/files/2016/07/1-amp.jpg" width="800" height="400" /></a></p>
+<h2><span style="color: #0b87c3">¿En qué consiste la iniciativa AMP? </span></h2>
+<p>Accelerated Mobile Pages o AMP es una norma de codificación de código abierto desarrollada para aumentar la velocidad de carga de las páginas web en teléfonos móviles. El proyecto AMP permite a los publicistas crear versiones ligeras de las páginas lentas y pesadas.</p>
+<p>Para que estas webs AMP funcionen correctamente, se utiliza un lenguaje HTML simplificado en lugar de una versión completa (¡y pesada!). Este formato permite que las webs carguen más rápido en soportes más pequeños, como los smartphones.</p>
+<p>Una web AMP presenta varias características:</p>
+<ul>
+<li>Uso optimizado de CSS y HTML, con un tamaño de elementos inline en CSS inferior a 50 kb.</li>
+<li>Función de carga de imágenes &#8220;lazy load&#8221;: las imágenes solo aparecerán si te desplazas hacia abajo.</li>
+<li>Compatibilidad con Ads y Analytics, al igual que cualquier página normal.</li>
+<li>Sin necesidad de JavaScript.</li>
+<li>Las webs AMP deben ser aprobadas por el AMP Validator, incluido en la AMP JS Library.</li>
+<li>Se deben cargar las fuentes personalizadas e indicar la altura y anchura de las imágenes.</li>
+<li>No se permiten los formularios.</li>
+<li>Se pueden incluir vídeos empleando las extensiones AMP.</li>
+</ul>
+<p>Todas estas restricciones reducirán los tiempos de carga y nos harán olvidar la frustración de tener que esperar un siglo para acceder a los contenidos.</p>
+<h2><span style="color: #0b87c3">¿Qué beneficios ofrece AMP? </span></h2>
+<ul>
+<li>Reducción del tiempo de carga</li>
+</ul>
+<p>Obviamente, la principal ventaja de AMP es la rapidez de carga de las páginas web.</p>
+<p>Si alguna vez has intentando acceder a contenidos desde tu smartphone, sabrás que te han podido dar las uvas esperando. La mayoría de usuarios emplea una tarifa de datos lenta, por lo que la velocidad actual no es suficiente para consultar la información fuera de casa.</p>
+<p>Sin embargo, las webs AMP permiten abrir el contenido más rápidamente. Según datos de Google, la rapidez de carga de estas webs es un 15-85 % mayor que en las webs convencionales. Si aumentas la rapidez de carga, estarás mejorando la experiencia del usuario. Y si los usuarios acceden con mayor facilidad a la información, permanecerán en tu página durante más tiempo.</p>
+<ul>
+<li>Ventajas de SEO:</li>
+</ul>
+<p>No cabe duda de que los dispositivos móviles son el futuro, y Google es un firme defensor de esta idea. Si tu web cuenta con una versión móvil, Google la mostrará antes y mejorará tu posición automáticamente. Ten en cuenta que cuanto más tiempo permanezca un usuario en tu página más puestos escalarás.</p>
+<p>No hay mejor manera de ilustrar la transcendencia de las webs AMP que con el carrusel de webs AMP que Google ha incorporado en la primera página de los resultados de búsqueda en dispositivos móviles. Este carrusel incluye artículos relacionados con la búsqueda y una imagen con el título del artículo. ¿Te imaginas el alcance que podrían tener tus contenidos?</p>
+<p style="text-align: center"><a href="https://www.prestashop.com/blog/es/files/2016/07/2-amp.png"><img class="size-full wp-image-14826 aligncenter" alt="2 amp" src="https://www.prestashop.com/blog/es/files/2016/07/2-amp.png" width="352" height="651" /></a></p>
+<p>&nbsp;</p>
+<h2><span style="color: #0b87c3">¿Quién puede utilizar las webs AMP?</span></h2>
+<p>Las webs AMP tienen buena pinta pero, ¿merecen la pena el tiempo y el esfuerzo? Sí, aunque no para todo el mundo.</p>
+<p>La iniciativa Accelerated Mobile Pages resulta útil para webs que publican entradas de blogs, artículos de noticias y otro tipo de contenidos. Sin embargo, si conviertes tus páginas de productos o servicios, perderás una valiosa oportunidad de impresionar a tus visitantes por su apariencia, ya que las webs AMP utilizan HTML reducido.</p>
+<p>En lugar de convertir toda tu web, te recomendamos que te centres en el blog o la sección de noticias. Si aceleras la carga de los artículos de tu blog, los usuarios accederán a la información que necesitan con mayor rapidez, lo que mejorará tu posición.</p>
+<p>Si tu página web (de marketing de contenidos o publicaciones) incorpora nueva información con frecuencia, la estrategia de AMP resultará muy provechosa para mejorar tu posición en los buscadores.</p>
+<h2><span style="color: #0b87c3">¿Cómo pasar a AMP?</span></h2>
+<p><a href="https://www.prestashop.com/blog/es/files/2016/07/amp.png"><img class=" wp-image-14827 alignnone" alt="amp" src="https://www.prestashop.com/blog/es/files/2016/07/amp.png" width="869" height="489" /></a></p>
+<p>Si creaste tu web con WordPress, tardarás cinco minutos en integrar la estrategia AMP gracias a los complementos siguientes:</p>
+<ul>
+<li>AMP WordPress de Automattic</li>
+<li>Yoast SEO</li>
+</ul>
+<p>Si no utilizas WordPress, tendrás que recurrir al hardcode. En la página web de AMP encontrarás toda la información para incorporar esta estrategia a mano.</p>
+<p>Una vez integrada, tómatelo con calma, tu contenido no aparecerá al instante en los resultados de búsqueda. Con Google, estas páginas tardan unos cuantos días en escalar posiciones. Ten en cuenta que el proceso puede ser bastante lento, sobre todo si el contenido ya existía previamente.</p>
+<p>AMP es un marco gratuito de código abierto que te brinda una interesante oportunidad para mejorar los resultados de posicionamiento y búsqueda de tu web. Aprovéchala y ofrece a tus usuarios una experiencia móvil más rápida con Accelerated Mobile Pages.<br />
+¿Te has propuesto aplicar la estrategia AMP en los artículos de tu blog y tus páginas de contenido? Cuéntanoslo: ¡los comentarios son todo tuyos!</p>
+<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>
+<p><strong>Acerca del autor:</strong></p>
+<p><img class="alignleft" alt="Logo" src="https://www.prestashop.com/blog/es/files/2016/07/Logo.jpg" width="258" height="90" />SHAMLATECH es una agencia global de servicios empresariales que lleva más de ocho años cosechando clientes satisfechos. Sus servicios incluyen desarrollo de sitios web, tiendas online y aplicaciones móviles, además de marketing digital.</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/que-es-el-formato-accelerated-mobile-pages-amp-y-como-puede-ayudar-mi-web/">¿Qué es el formato Accelerated Mobile Pages (AMP) y cómo puede ayudar a mi web?</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/es/que-es-el-formato-accelerated-mobile-pages-amp-y-como-puede-ayudar-mi-web/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
 		<title>Seis tácticas inteligentes de precios competitivos para empresas de e-commerce &#8211; parte 2/2</title>
 		<link>https://www.prestashop.com/blog/es/seis-tacticas-inteligentes-de-precios-competitivos-para-empresas-de-e-commerce-parte-22/</link>
 		<comments>https://www.prestashop.com/blog/es/seis-tacticas-inteligentes-de-precios-competitivos-para-empresas-de-e-commerce-parte-22/#comments</comments>
@@ -413,90 +484,6 @@ Comenzamos por analizar el ganador de la categoría “Mejor Experiencia de Usua
 <p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/3-pasos-para-ofrecer-tus-clientes-una-experiencia-personalizada-en-tu-sitio-web-de-e-commerce/">3 pasos para ofrecer a tus clientes una experiencia personalizada en tu sitio web de e-commerce</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
 ]]></content:encoded>
 			<wfw:commentRss>https://www.prestashop.com/blog/es/3-pasos-para-ofrecer-tus-clientes-una-experiencia-personalizada-en-tu-sitio-web-de-e-commerce/feed/</wfw:commentRss>
-		<slash:comments>0</slash:comments>
-		</item>
-		<item>
-		<title>7 acciones DIY que acelerarán tu Prestashop</title>
-		<link>https://www.prestashop.com/blog/es/7-acciones-diy-que-aceleraran-tu-prestashop/</link>
-		<comments>https://www.prestashop.com/blog/es/7-acciones-diy-que-aceleraran-tu-prestashop/#comments</comments>
-		<pubDate>Tue, 21 Jun 2016 05:00:57 +0000</pubDate>
-		<dc:creator><![CDATA[Los amigos de Preston]]></dc:creator>
-				<category><![CDATA[Consejos E-commerce]]></category>
-		<category><![CDATA[acelerar]]></category>
-		<category><![CDATA[diy]]></category>
-
-		<guid isPermaLink="false">https://www.prestashop.com/blog/es/?p=14489</guid>
-		<description><![CDATA[<p>“Vaya! Sólo he leído el título del artículo y  ya me encuentro con un palabrejo que no conozco”&#8230; podrás pensar. Tranquilo/a!! voy a tratar de que sea lo único que puede que no te suene. Con este DIY sólo pretendo indicar que esas 7 acciones las podrás hacer tu mismo/a (Do It Yourself) sin necesidad [...]</p>
-<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/7-acciones-diy-que-aceleraran-tu-prestashop/">7 acciones DIY que acelerarán tu Prestashop</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
-]]></description>
-				<content:encoded><![CDATA[<p>“Vaya! Sólo he leído el título del artículo y  ya me encuentro con un palabrejo que no conozco”&#8230; podrás pensar. Tranquilo/a!! voy a tratar de que sea lo único que puede que no te suene. Con este <b>DIY </b>sólo pretendo indicar que esas 7 acciones las podrás hacer tu mismo/a (<i>Do It Yourself</i>) sin necesidad de complejidades técnicas, sólo configurando tu tienda o usando algún plugin, vamos que si ya estás trabajando con una tienda Prestashop…Esto está “chupao”!!</p>
-<p><span id="more-14489"></span></p>
-<h2>¿Por dónde empiezo?</h2>
-<p><span style="font-family: 'Source Sans Pro', Helvetica, sans-serif;font-size: 16px;line-height: 1.5">En muchos artículos sobre optimización de velocidad de carga de Prestashop me encuentro con que entran de lleno con la sección “Rendimiento” y sus múltiples opciones y acaban con algunas opciones avanzadas. Esto está bien pero te voy a dar un paso previo, no empieces haciendo cambios, lo primero de todo:</span></p>
-<h2>1. Mide</h2>
-<p>Mi recomendación es que empieces midiendo, para saber cual es tu punto de partida. Medir desde el principio te dará una aproximación certera de cómo tenías tu tienda online y cómo todas las mejoras que has ido poniendo en marcha han mejorado la velocidad de carga.</p>
-<p>Voy a tomar como ejemplo la <a href="http://romanjoyero.com/">joyería online romanjoyero.com</a> para mostrar la evolución a medida que vamos optimizando su Prestashop.</p>
-<p><b><span style="text-decoration: underline">Herramientas</span></b></p>
-<p>Las 3 herramientas imprescindibles para esta medición son:</p>
-<p>l  <a href="https://developers.google.com/speed/pagespeed/insights/">Google PageSpeed Insighst</a></p>
-<p>l  <a href="http://tools.pingdom.com/fpt/">Pingdom Tools</a></p>
-<p>l  <a href="https://gtmetrix.com/">GT Metrix</a></p>
-<p>Solo tienes que introducir tu dominio con el formato de navegación que tengas definido (con o sin www) y cada una de ellas te ofrecerá un detallado informe de qué elementos debes corregir, cuales son prioritarios, en rojo para llamar bien nuestra atención, qué elementos puedes plantearte corregir (PageSpeed) y qué elementos están correctos en tu tienda.</p>
-<p>Toma buena nota de todos ellos, en este artículo verás cómo resolver algunos de los que pueden aparecer en esta lista a golpe de ratón</p>
-<p>Veamos qué datos tenemos con el ejemplo de la joyería online.</p>
-<p align="center"><b>PageSpeed</b></p>
-<p>&nbsp;</p>
-<p align="center"><a href="https://www.prestashop.com/blog/es/files/2016/05/1-inicio.jpg"><img class="alignnone size-full wp-image-14556" alt="1-inicio" src="https://www.prestashop.com/blog/es/files/2016/05/1-inicio.jpg" width="384" height="270" /></a></p>
-<p align="center"><b>GT Metrix<br />
-<a href="https://www.prestashop.com/blog/es/files/2016/05/2-inicio.jpg"><img class="alignnone size-full wp-image-14557" alt="2-inicio" src="https://www.prestashop.com/blog/es/files/2016/05/2-inicio.jpg" width="992" height="136" /></a><br />
-</b></p>
-<p align="center"><b>Pindom Tools<br />
-<a href="https://www.prestashop.com/blog/es/files/2016/05/Pingdom-tools1.jpg"><img class="alignnone size-full wp-image-14552" alt="Pingdom tools1" src="https://www.prestashop.com/blog/es/files/2016/05/Pingdom-tools1.jpg" width="608" height="208" /></a><br />
-</b></p>
-<p>&nbsp;</p>
-<h2>2. Aprovecha las opciones básicas de rendimiento de PrestaShop</h2>
-<p><span style="text-decoration: underline">Compilación de plantillas (Smarty)</span>: La opción de configuración que ofrecerá mayor velocidad a tu prestashop será con la Caché de plantillas activada y evitando que se recompilen las plantillas marcando la primera de las opciones de la lista. Utiliza estas opciones mientras no tengas previsto hacer cambios en las plantillas.</p>
-<p>Según la versión de Prestashop tendrás también otras dos opciones relacionadas con el tipo de caché y la limpieza de la caché. Selecciona la opción de tipo de caché basada en sistema de ficheros (File System) y la de limpiar la caché siempre que haya cambios.</p>
-<p><a href="https://www.prestashop.com/blog/es/files/2016/05/smarty.png"><img class="alignnone size-full wp-image-14554" alt="smarty" src="https://www.prestashop.com/blog/es/files/2016/05/smarty.png" width="657" height="162" /></a></p>
-<p>&nbsp;</p>
-<p><span style="text-decoration: underline">Combinación, Compresión y Caché (CCC)</span>: Con esta opción conseguiremos comprimir y cachear ciertos tipos de fichero como algunos javascripts, css y código HTML. <b>Nuestro objetivo será que la tienda esté 100% operativa con todas estas opciones activadas</b>. Digo esto porque si en tu tienda no las tienes activadas es posible que tu plantilla sufra alteraciones al activarlas. Estas opciones afectan a la programación javascript de la que hace uso tu tienda, de modo que lo recomendable será que una vez activadas navegues por toda la tienda, realices un pedido de ejemplo, uses formularios de contacto, etc. para comprobar que todo sigue funcionando correctamente. Si te encuentras con dificultades empieza por desactivar <i>“Smart Caché” para el código de Javascript</i>. Para hacer uso de estas opciones tu plantilla deberá ser compatible mínimo con Prestashop 1.4</p>
-<p style="text-align: center"> <a href="https://www.prestashop.com/blog/es/files/2016/05/ccc.png"><img class="alignnone size-full wp-image-14563" alt="ccc" src="https://www.prestashop.com/blog/es/files/2016/05/ccc.png" width="1011" height="369" /></a></p>
-<p>&nbsp;</p>
-<p><span style="text-decoration: underline">Usar caché del Servidor</span>: Activar esta opción es simple pero debemos estar seguros de que nuestro servicio de hosting tiene instalados los sistemas de caché soportados por Prestashop. Lo habitual será que puedas activar esta opción usando Memcached.</p>
-<p><a href="https://www.prestashop.com/blog/es/files/2016/05/cache.png"><img class="alignnone size-full wp-image-14562" alt="cache" src="https://www.prestashop.com/blog/es/files/2016/05/cache.png" width="680" height="220" /></a></p>
-<p>También tenemos recursos externos en formato plugin como <a href="http://addons.prestashop.com/en/6413-cache-manager.html">Cache Manager</a> para mejorar aún más el rendimiento de nuestra tienda optimizando su caché.</p>
-<h2>3. Adquirir un CDN</h2>
-<p>Prestashop está preparado para configurar un CDN, un sistema de almacenamiento externo muy muy rápido en el que alojar tus imágenes. Si tu ecommerce cuenta con muchas imágenes de producto, miles de productos y mucho tráfico, sin duda ésta es una opción a considerar. Existen numerosas opciones de este tipo de <b>servicio, </b>como por ejemplo Amazon CoudFont, Akamai o CloudFlare, que te ofrecerán excelentes resultados de rendimiento.</p>
-<p>A lo largo de las opciones que encontramos en la sección <i>Rendimiento </i>habrás visto, si has aplicado la configuración del punto anterior, una con el título “<i>Servidores Multimedia</i>”. Una vez contratado un servidor CDN es en este apartado donde tendrás que indicar la URL de tu nuevo almacenamiento de imágenes, en el caso de Amazon sería algo parecido a <i>nombredemiCDN.cloudfont.net</i>.</p>
-<h2>4. Optimiza tus imágenes</h2>
-<p>SIEMPRE, SIEMPRE, SIEMPRE antes de dar de alta productos, subir imágenes a un carrusel, incluir fotos de tus tiendas, etc, etc. asegúrate de haberlas optimizado primero.</p>
-<p>Aquí no me extenderé e iré a lo práctico:</p>
-<p>l  Utiliza las dimensiones adecuadas en cada caso: Si una imagen de un carrusel por ejemplo se va a mostrar máximo en 1000&#215;300 no subas una de 2000&#215;600!</p>
-<p>l  Optimiza el “peso” de las imágenes: Tienes herramientas online como <a href="http://compressor.io/">http://compressor.io</a> o <a href="http://kraken.io/">http://kraken.io</a> que te ayudarán a optimizar el peso de la imagen en función de sus dimensiones siempre, por supuesto, con una pérdida de calidad, pero estas aplicaciones se encargan muy bien de mantener un equilibrio entre calidad y peso.</p>
-<p>También puedes usar el <b>ImgOptimizer </b>gratuito si eres cliente del <a href="http://www.webempresa.com/optimizacion-de-imagenes-gratuito-con-imgoptimizer.html">hosting para Prestashop de Webempresa</a></p>
-<h2>5. Desinstala módulos inactivos.</h2>
-<p>Por defecto contamos con decenas de módulos que, probablemente, nunca llegaremos a usar en nuestra tienda. Desinstala todos aquellos que cumplan esta característica para eliminar esta “sobrecarga” en tu instalación de Prestashop.</p>
-<h2>6. Haz un mantenimiento de la base de datos:</h2>
-<p>Si tu tienda tiene mucho tiempo de uso la base de datos se irá haciendo cada vez más “pesada” debido a la gran cantidad de información almacenada y esto puede ralentizar considerablemente el rendimiento de tu tienda. Existen plugins como <a href="http://addons.prestashop.com/es/15613-optimiza-el-rendimiento-limpia-y-acelera-db.html">Optimizador de rendimiento</a> que te ayudarán a limpiar datos poco relevantes y aligerar la base de datos para reducir la velocidad de carga.</p>
-<h2>7. Reducción de recursos externos:</h2>
-<p>Hay plugins que hacen uso de recursos externos como ficheros javascript, imágenes, tipos de letra etc. Revisa el resultado del plugin PageSpeed para detectar este tipo de recursos y haz lo posible por eliminarlos.<br />
-En la joyería online del ejemplo nos encontramos con un plugin para mostrar las tiendas en el pié de página que hace uso del API de Google Maps, muestra dos mini-mapas que nos enlazan externamente sin mayor funcionalidad. Podemos sustituir desde el backoffice el código de estos mini-mapas para usar imágenes y evitar la carga externa de estos mini-mapas.</p>
-<p>Las fuentes (tipos de letra) que carga nuestra plantilla como recurso externo desde por ejemplo <a href="http://fonts.googleapis.com/">http://fonts.googleapis.com</a> son también origen de pequeños retardos en la velocidad de carga, a pesar de que tienen un rendimiento muy bueno, en la medida de lo posible evita su uso o <b>alójalas en tu servidor</b>. Este punto es algo más avanzado y no podrás realizarlo sin modificar la programación de tu <b>herader.tpl</b></p>
-<p>¿Has hecho todas estas configuraciones? Bien pues como paso final, vuelve a medir y observa resultados:</p>
-<p align="center"><b>PageSpeed</b></p>
-<p align="center"><a href="https://www.prestashop.com/blog/es/files/2016/05/pagespeed.jpg"><img class="alignnone size-full wp-image-14548" alt="pagespeed" src="https://www.prestashop.com/blog/es/files/2016/05/pagespeed.jpg" width="378" height="263" /></a></p>
-<p align="center"><b>GTMetrix</b></p>
-<p align="center"><a href="https://www.prestashop.com/blog/es/files/2016/05/5-optimizado.png"><img class="alignnone size-full wp-image-14560" alt="5-optimizado" src="https://www.prestashop.com/blog/es/files/2016/05/5-optimizado.png" width="996" height="138" /></a></p>
-<p align="center"><b>Pingdom Tools</b> <a href="https://www.prestashop.com/blog/es/files/2016/05/Pingdom-tools.jpg"><img class="alignnone size-full wp-image-14551" alt="Pingdom tools" src="https://www.prestashop.com/blog/es/files/2016/05/Pingdom-tools.jpg" width="848" height="285" /></a><span style="line-height: 1.5"> </span></p>
-<p>Entre la información que nos ofrecen estas herramientas hay muchas más opciones de optimización pero también con mayor complejidad de corrección. Aquí te he descrito las que creo que puede realizar cualquiera que actualmente esté administrando una tienda.</p>
-<p>Espero que te sean de muchísima utilidad!</p>
-<p>Saludos!!!</p>
-<p>Sobre el autor:</p>
-<p><img class="wp-image-13837 alignleft" style="margin-top: -2px;margin-bottom: -14px" alt="Victor_campuzano" src="https://www.prestashop.com/blog/es/files/2016/05/foto.jpg" width="80" height="80" /><b>Miguel Pau</b> – Consultor de negocio electrónico con más de 10 años de experiencia. Escribo sobre SEO y Liferay Portal en <a href="http://www.miguelpau.es" target="_blank">miguelpau.es</a>, soy Consultor SEO Freelance para portales Liferay y formo parte del equipo de Consultores SEO de <a href="http://www.webpositer.com" target="_blank">webpositer.com</a><br />
-<strong>Twitter:</strong> <a href="http://twitter.com/miguelpau" target="_blank">@miguelpau</a></p>
-<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/7-acciones-diy-que-aceleraran-tu-prestashop/">7 acciones DIY que acelerarán tu Prestashop</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
-]]></content:encoded>
-			<wfw:commentRss>https://www.prestashop.com/blog/es/7-acciones-diy-que-aceleraran-tu-prestashop/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 		</item>
 	</channel>

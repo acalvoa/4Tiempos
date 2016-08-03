@@ -20,8 +20,12 @@ class Shipit extends CarrierModule{
         $this->description = $this->l('Modulo de calculo de transporte de la empresa shipit');
     }
 
-    public function    install(){}
-    public function    uninstall(){}
+    public function    install(){
+        return parent::install();
+    }
+    public function    uninstall(){
+        return parent::uninstall();
+    }
     public function    getContent(){
         $this->_html .= '<h2>'.$this->displayName.'.</h2>';
     }

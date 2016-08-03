@@ -8,7 +8,7 @@ class Shipit extends CarrierModule{
  
     public function __construct(){
         $this->name        = 'shipit';
-        $this->tab         = 'analytics_stats';
+        $this->tab         = 'shipping_logistics';
         $this->author      = '4tiempos';
         $this->version     = '1.0.0';
         $this->ps_versions_compliancy = array('min' => '1.6', 'max' => '1.7');
@@ -16,8 +16,8 @@ class Shipit extends CarrierModule{
      
         parent::__construct();
      
-        $this->displayName = $this->l('Modulo de prueba');
-        $this->description = $this->l('Este modulo permite incluir el codigo de Google Analytics y generar un mensaje de politicas de privacidad');
+        $this->displayName = $this->l('Shipit Shipping');
+        $this->description = $this->l('Modulo de calculo de transporte de la empresa shipit');
     }
 
     public function    install(){}

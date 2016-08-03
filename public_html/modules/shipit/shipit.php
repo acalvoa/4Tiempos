@@ -29,5 +29,8 @@ class Shipit extends CarrierModule{
     public function    hookDisplayHeader($params){}
     public function    hookDisplayFooter($params){}
     private function   _hex2rgb($hex) {}
+    public function getOrderShippingCost($params, $shipping_cost){}
+    public function getOrderShippingCostExternal($params, $shipping_cost){}
+
 }
 ?>

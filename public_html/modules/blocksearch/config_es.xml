@@ -2,7 +2,7 @@
 <module>
 	<name>blocksearch</name>
 	<displayName><![CDATA[Bloque de b&uacute;squeda r&aacute;pida]]></displayName>
-	<version><![CDATA[1.7.0]]></version>
+	<version><![CDATA[1.7.1]]></version>
 	<description><![CDATA[A&ntilde;ada u bloque con un campo de b&uacute;squeda r&aacute;pida]]></description>
 	<author><![CDATA[PrestaShop]]></author>
 	<tab><![CDATA[search_filter]]></tab>

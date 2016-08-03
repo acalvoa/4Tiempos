@@ -2,7 +2,7 @@
 <module>
 	<name>blockbanner</name>
 	<displayName><![CDATA[Bloque de Banner]]></displayName>
-	<version><![CDATA[1.4.0]]></version>
+	<version><![CDATA[1.4.1]]></version>
 	<description><![CDATA[Muestra un banner en la parte superior de la tienda.]]></description>
 	<author><![CDATA[PrestaShop]]></author>
 	<tab><![CDATA[front_office_features]]></tab>

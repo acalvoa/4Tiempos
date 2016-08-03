@@ -2,7 +2,7 @@
 <module>
 	<name>blockmyaccountfooter</name>
 	<displayName><![CDATA[Bloque Mi cuenta en el pie de p&aacute;gina]]></displayName>
-	<version><![CDATA[1.6.0]]></version>
+	<version><![CDATA[1.6.1]]></version>
 	<description><![CDATA[Muestra un bloque con enlaces relativos a la cuenta de usuario]]></description>
 	<author><![CDATA[PrestaShop]]></author>
 	<tab><![CDATA[front_office_features]]></tab>

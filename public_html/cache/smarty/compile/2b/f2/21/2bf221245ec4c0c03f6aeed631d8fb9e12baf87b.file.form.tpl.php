@@ -1,13 +1,13 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-07-22 02:56:37
+<?php /* Smarty version Smarty-3.1.19, created on 2016-07-26 18:11:40
          compiled from "/home/testing.4tiempos.cl/public_html/modules/blocktopmenu/views/templates/admin/_configure/helpers/form/form.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:9904304625791c3a51b5ad7-52636957%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:17819110775797e01c9d69f6-49213379%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '2bf221245ec4c0c03f6aeed631d8fb9e12baf87b' => 
     array (
       0 => '/home/testing.4tiempos.cl/public_html/modules/blocktopmenu/views/templates/admin/_configure/helpers/form/form.tpl',
-      1 => 1465942510,
+      1 => 1469394969,
       2 => 'file',
     ),
     '676028380493270737cf63ba657cd964eaa46eaa' => 
@@ -23,7 +23,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '9904304625791c3a51b5ad7-52636957',
+  'nocache_hash' => '17819110775797e01c9d69f6-49213379',
   'function' => 
   array (
   ),
@@ -79,9 +79,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5791c3a6550431_99748016',
+  'unifunc' => 'content_5797e01dc48537_35958733',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5791c3a6550431_99748016')) {function content_5791c3a6550431_99748016($_smarty_tpl) {?><?php if (!is_callable('smarty_function_counter')) include '/home/testing.4tiempos.cl/public_html/tools/smarty/plugins/function.counter.php';
+<?php if ($_valid && !is_callable('content_5797e01dc48537_35958733')) {function content_5797e01dc48537_35958733($_smarty_tpl) {?><?php if (!is_callable('smarty_function_counter')) include '/home/testing.4tiempos.cl/public_html/tools/smarty/plugins/function.counter.php';
 ?>
 <?php if (isset($_smarty_tpl->tpl_vars['fields']->value['title'])) {?><h3><?php echo $_smarty_tpl->tpl_vars['fields']->value['title'];?>
 </h3><?php }?>
@@ -1199,8 +1199,8 @@ $_smarty_tpl->tpl_vars['v']->_loop = true;
 									<?php $_smarty_tpl->tpl_vars['groups'] = new Smarty_variable($_smarty_tpl->tpl_vars['input']->value['values'], null, 0);?>
 									<?php /*  Call merged included template "helpers/form/form_group.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('helpers/form/form_group.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '9904304625791c3a51b5ad7-52636957');
-content_5791c3a6100bc5_57676054($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('helpers/form/form_group.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '17819110775797e01c9d69f6-49213379');
+content_5797e01d819940_33480663($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "helpers/form/form_group.tpl" */?>
 								<?php } elseif ($_smarty_tpl->tpl_vars['input']->value['type']=='shop') {?>
@@ -1650,9 +1650,9 @@ function move(up)
 	</script>
 <?php }?>
 <?php }} ?>
-<?php /* Smarty version Smarty-3.1.19, created on 2016-07-22 02:56:38
+<?php /* Smarty version Smarty-3.1.19, created on 2016-07-26 18:11:41
          compiled from "/home/testing.4tiempos.cl/public_html/admin8872/themes/default/template/helpers/form/form_group.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5791c3a6100bc5_57676054')) {function content_5791c3a6100bc5_57676054($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5797e01d819940_33480663')) {function content_5797e01d819940_33480663($_smarty_tpl) {?>
 
 <?php if (count($_smarty_tpl->tpl_vars['groups']->value)&&isset($_smarty_tpl->tpl_vars['groups']->value)) {?>
 <div class="row">

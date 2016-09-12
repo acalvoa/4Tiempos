@@ -1,0 +1,152 @@
+@import 'bootstrap_lib/_variables';
+
+// ------- FONTS -------
+
+$font-family:				  		Arial, Helvetica, sans-serif;
+$font:						  		normal 13px/18px $font-family;
+$font-custom:                 		'Roboto', sans-serif;
+$font-other:                 		'Lato', sans-serif;
+$font-icon:                   		"FontAwesome";
+
+// ------- BORDERS ------- 
+
+$base-border-color:					#d6d4d4;
+$main_border:						1px solid $base-border-color;
+$dark-border-color:					#333;
+$light-border-color:				#fff;
+$homepage-footer-border:            #d9d9d9;
+
+// ------- BACKGROUNDS -------
+
+$base-box-bg:                       #fbfbfb;
+$custom-background:					#fd1919;
+$table-background:                  $base-box-bg;
+$dark-background:                   #333;
+$light-background:                  #fff;
+$homepage-footer-bg:                #f2f2f2;
+
+// ------- COLORS ------- 
+
+$base-body-color:                   #777;
+$base-text-color:                   #333;
+$custom-color:						#fd1919;
+$base-heading-color:				#000;
+$base-title-color:					$base-text-color;
+$light-text-color:                  #fff;
+$link-color:						$link-color;
+$link-hover-color:                  #fd1919;
+$description-color:					#666;
+
+
+// ------- Indents ------- 
+
+$base-page-indent:                 	$grid-gutter-width;
+$base-box-padding:                  14px 18px 13px;
+$base-box-indent:                  	0 0 30px 0;
+
+// ------- Product Elements -------
+
+$product-name-color:                #000;
+$product-name-hover-color:          #fd1919;
+$price-color:						#000;
+$product-price-color:				#000;
+$product-reduced-price:				#f00;
+$product-special-price-color:		#f13340;
+$product-old-price-color:			#ababab;
+
+// ------- Buttons -------
+
+$button-text-color:					#fff;
+$button-bg:							#f00f0f;
+$button-border:						#b7b7b7;
+
+		// ------- Buttons +/- ------
+		
+		$button-pm-color:			#c0c0c0;
+		$button-pm-hover-color:		$base-text-color;
+		
+		// ------- Button Small -------
+		
+		$button-small-bg:			$button-bg;
+		$button-small-border:		$button-border;
+		
+		// ------- Button exclusive-medium -------
+		
+		$button-em-color:			$base-text-color;
+		
+// ------- My Account List bg -------
+
+$ma-button-bg:                      rgba(247,247,247,1);
+
+// ------- Product Listing -------
+
+$base-listing-border-color:					$base-border-color;
+$base-listing-grid-padding:					$base-box-padding;
+		
+		// ------- Grid/List vars ------- 
+		
+		$GL-text-color:								#808080;
+		$GL-title-color:							$base-text-color;
+		$GL-icon-color:								#e1e0e0;
+		$GL-icon-color-hover:						$base-text-color;
+		
+		// ------- Pagination vars -------
+		
+		$pagination-prevnext-color:					#777676;
+		$pagination-bgcolor:	               		$button-bg;
+		$pagination-hover-bg:						darken($pagination-bgcolor, 15);
+
+// ------- Product Info -------
+
+$top-line-color:									$base-border-color;
+$product-image-border:								$base-border-color;
+$scroll-button-color:								#c0c0c0;
+$list-info-bg:										$base-box-bg;
+$scroll-button-hover-color:							$base-text-color;
+$tr-even-bg:										#fdfdfd;
+
+// ------- Cart Steps -------
+
+$cs-border-radius:                                  0;
+$step-todo-bg:										#EDEDED;
+$step-todo-border-color:							darken($step-todo-bg, 15);
+$step-current-bg:									#42B054;
+$step-current-border-color:							darken($step-current-bg, 15);
+$step-done-bg:										#6B6B6B;
+$step-done-border-color:							darken($step-done-bg, 15);
+$step-hover-bg:										darken($step-done-bg, 15);
+$step-hover-border-color:							darken($step-hover-bg, 15);
+
+// ------- sub heading (h2,h3) define -------
+
+@mixin sub-heading {
+	color: $base-heading-color;
+	text-transform: uppercase;
+	font-family: $font-custom;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 20px;
+	padding: 14px 20px 17px;
+	margin: 0 0 20px;
+	position: relative;
+	border: 1px solid $base-border-color;
+	border-bottom: none;
+	background: $base-box-bg;
+}
+
+// ------- Image vars -------
+
+@mixin product-image {
+	border:1px solid $base-border-color;
+	padding:9px;
+	position:relative;
+	background:$light-background;	
+}
+@mixin products-block-image {
+	border: 1px solid $base-border-color;
+}
+@mixin max-width-container {
+	max-width: 98%;
+	width: 1230px;
+	margin: 0 auto;
+}

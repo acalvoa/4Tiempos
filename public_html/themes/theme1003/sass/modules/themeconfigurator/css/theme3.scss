@@ -1,0 +1,181 @@
+@import "compass";
+@import "theme_variables";
+$theme-color1: #3ec5f2;
+$theme-hover-color1: #31a5cb;
+$theme-color2: #37b5de;
+$theme-hover-color2: #31a5cb;
+$theme-color3: #31a5cb;
+$theme-color4: #000000;
+$theme-color5: #329ec2;
+$theme-color6: #fff;
+
+#page {
+	background: url(../img/bg-main_theme3.jpg) no-repeat fixed center 0 #353a3e;
+}
+header .nav {
+	background: url(../img/nav-theme3.jpg) 0 0 repeat-x;
+}
+a:hover, a:focus, a:active {
+	color: $theme-hover-color1;
+}
+.btn.button {
+ 	@include background-image(linear-gradient($theme-color1, $theme-color2, $theme-color3));
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$theme-color1', endColorstr='$theme-color3',GradientType=0);
+	&:hover {
+		@include background-image(linear-gradient($theme-color3, $theme-color2, $theme-color1));
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$theme-color3', endColorstr='$theme-color1',GradientType=0);
+	}
+}
+.button.lnk_view {
+	background: none;
+	&:after {
+		color: $theme-hover-color1;
+	}
+	&:hover {
+		background: none;
+		color: $theme-hover-color1;
+	}
+}
+#currencies-block-top div.current strong,
+#currencies-block-top div.current:hover strong, 
+#currencies-block-top div.current.active strong,
+#currencies-block-top div.current.active:after
+ {
+	color: $theme-color1;
+}
+#contact-link a:hover, 
+#contact-link a.active {
+	background: $theme-color1;
+}
+.header_user_info a:hover,
+ .header_user_info a.active {
+ 	background: $theme-color1;
+ 	color: $theme-color6;
+ }
+
+ #search_block_top .btn.button-search {
+ 	@include background-image(linear-gradient($theme-color1, $theme-color2, $theme-color3));
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$theme-color1', endColorstr='$theme-color3',GradientType=0);
+	&:hover {
+		@include background-image(linear-gradient($theme-color3, $theme-color2, $theme-color1));
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$theme-color3', endColorstr='$theme-color1',GradientType=0);
+	}
+ }
+ .shopping_cart > a:first-child {
+ 	background: $theme-color1;
+ 	&:before {
+		box-shadow: 0 1px 7px 7px $theme-color5;
+ 	}
+ }
+#page #block_top_menu_indent .topMenu {
+	background: url(../img/bg-menu-theme3.jpg) 0 0 repeat-x;
+}
+#header {
+	.sf-menu > li {
+		&:hover > a {
+			@media (max-width: $screen-md-max) {  
+				background: $theme-color1;	
+			}
+		}
+		&.sfHover > a,
+		&.sfHoverForce > a {
+			background: $theme-color1;
+		}
+	}
+	#animate-box {
+		background: $theme-color1;
+	}
+}
+#header .sf-menu > li > ul {
+	> li {
+		> a {
+			&:hover {
+				color: $theme-color1;
+			}
+		}
+	}
+}
+#header .sf-menu li li li a {
+	&:hover {
+		background: $theme-color1;
+	}
+}
+#homepage-slider .bx-wrapper .bx-pager.bx-default-pager a:hover, 
+#homepage-slider .bx-wrapper .bx-pager.bx-default-pager a.active {
+	background: $theme-color1;
+	border-color: $theme-color1;
+}
+#htmlcontent_top ul li a div h3 {
+	background: $theme-color1;
+}
+#htmlcontent_top ul li a{
+	@media (max-width: $screen-md-max) {  
+		&:hover h3 {
+			background: rgba(244, 24, 24, 0);
+			color: $theme-color1;
+		}
+	}
+	@media (min-width: $screen-md-max) {
+		&:hover h2 {
+			background: $theme-color1;
+		}
+	}
+}
+.price-percent-reduction,
+#reduction_percent, #reduction_amount {
+	background: $theme-color1;
+}
+#productscategory_list .product-name a:hover, .accessories-block .product-name a:hover {
+	color: $theme-hover-color1;
+}
+.footer-container {
+	background: url(../img/bg-footer-theme3.jpg) 0 0 no-repeat;
+}
+.footer-container .footer-insert-container {
+	background: rgba(33, 35, 40, 1);
+	@media (max-width: $screen-md-max) { 
+		background: #222;
+	}
+}
+.footer-container #footer a:hover {
+	color: $theme-color1;
+}
+#cmsinfo_block p strong {
+	color: $theme-color1;
+}
+#cmsinfo_block li em {
+	background: $theme-color1;
+}
+.footer-container #footer #block_contact_infos > div ul li i {
+	color: $theme-color1;
+}
+.footer-container #footer #block_contact_infos > div ul li > span a {
+	color: $theme-color1;
+}
+#footer #newsletter_block_left .form-group .button-small {
+	color: $theme-color1;
+}
+.footer-container #footer #social_block ul li a:hover {
+	color: $theme-color1;
+}
+.footer-container #footer .bottom-footer div a:hover {
+	color: $theme-color4;
+}
+.footer-container #footer h4 a:hover {
+	color: $theme-color1;
+}
+.layered_list:hover {
+	color: $theme-hover-color1;
+}
+.block .list-block li a:hover {
+	color: $theme-hover-color1;
+}
+.footer-container #footer .bottom-footer div {
+	color: $theme-color6;
+	a {
+		color: $theme-color6;
+		&:hover {
+			color: #999;
+		}
+	}
+}

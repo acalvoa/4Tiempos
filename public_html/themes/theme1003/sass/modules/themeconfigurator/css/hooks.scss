@@ -1,0 +1,173 @@
+@import "compass";
+@import "theme_variables";
+
+/* Top hook CSS */
+#htmlcontent_top {
+	padding: 0 15px 5px;
+	@media (max-width: $screen-xs-max) { // max 767px
+		width: 101%;
+		max-width: 100.1%;
+		padding: 0 0 5px;
+	}
+	ul {
+		@media (max-width: $screen-xs-max) { // max 767px
+			margin: -1px 0 0 0 ;
+		}
+		li {
+			float: left;
+			overflow: hidden;
+			width: 33.334%;
+			@media (max-width: $screen-md-max) {  
+				width: 33.33%;
+			}
+			@media (max-width: $screen-sm-max) { // max 767px
+				width: 33.332%;
+			}
+			@media (max-width: $screen-xs){
+				width: 100%;
+				max-width: 100%;
+				float: none;
+			}
+			a {
+				position: relative;
+				overflow: hidden;
+				display: block;
+				@media (min-width: $screen-lg) {
+					&:hover img {
+						-moz-transform: scale(1.2); 
+						-webkit-transform: scale(1.2); 
+						-o-transform: scale(1.2); 
+						transform: scale(1.2);
+					}
+				}
+				&:hover {
+					z-index: 1;
+				}
+				@media (min-width: $screen-md-max) {  
+					&:hover h3 {
+						background: rgba(244, 24, 24, 0);
+						margin-left: 142px;
+					}
+				}
+				@media (min-width: $screen-md-max) {
+					&:hover h2 {
+						background: rgba(244, 24, 24, 1);
+						padding: 0 12px;
+						margin: 10px 0 8px 50px;
+					}
+				}
+				@media (max-width: $screen-md-max) {  
+					&:hover h3 {
+						background: rgba(244, 24, 24, 0);
+						color: $custom-color;
+					}
+				}
+				div {
+				    left: 7.4%;
+				    padding: 0 20px 20px 0;
+				    position: absolute;
+				    top: 13%;
+				    width: 70%;
+				    @media (max-width: $screen-md-max) {
+						top: 10%;
+					}
+				    @media (max-width: $screen-xs-max) {
+				    	top: 19%;
+					}
+				    @media (max-width: $screen-xs){
+				    	top: 13%;
+					}
+				    h3 {
+				    	font: 900 2.385em/1em $font-other;
+				    	color: $light-text-color;
+						letter-spacing: -1px;
+   						padding: 0 3px 3px;
+				    	background: rgba(244, 24, 24, 1);
+				    	display: inline-block;
+				    	text-transform: uppercase;
+				    	-webkit-transition: all 0.2s ease;
+						-moz-transition: all 0.2s ease;
+						-ms-transition: all 0.2s ease;
+						-o-transition: all 0.2s ease;
+						transition: all 0.2s ease;
+						margin: 0;
+						@media (max-width: $screen-md-max){
+							font-size: 2em; 
+						}
+						@media (max-width: $screen-xs-max) {
+				    		font-size: 1.5em;
+						}
+						@media (max-width: $screen-xs){
+							font-size: 2.385em;
+						}
+				    }
+				    h2 {
+				    	display: inline-block;
+				    	background: rgba(244, 24, 24, 0);
+				    	font: 900 4.077em/1em $font-other;
+				    	color: $light-text-color;
+				    	-webkit-transition: all 0.3s ease;
+						-moz-transition: all 0.3s ease;
+						-ms-transition: all 0.3s ease;
+						-o-transition: all 0.3s ease;
+						transition: all 0.3s ease;
+						margin: 0 0 0 -3px;
+						padding: 0;
+						text-transform: uppercase;
+						letter-spacing: -1.8px;
+						@media (max-width: $screen-md-max){
+							font-size: 2.8em; 
+						}
+						@media (max-width: $screen-xs-max) {
+				    		font-size: 2.5em;
+						}
+						@media (max-width: $screen-xs){
+							font-size: 3em;
+							display: block;
+							margin: 0;
+						}
+				    }
+				    p {
+				    	font: 400 0.923em/1.6em $font-custom;
+				    	color: $light-text-color;
+				    	width: 205px;
+				    	margin-top: 5px;
+				    	@media (max-width: $screen-xs-max) { 
+							display: none;
+						}
+						@media (max-width: $screen-xs){
+							display: block;
+						}
+				    }    
+					&:last-child{
+						margin-bottom: 0;
+					}
+				}
+				img {
+					max-width: 100%;
+					height: auto;
+					-webkit-transition: all 0.2s linear; 
+					-moz-transition: all 0.2s linear; 
+					-o-transition: all 0.2s linear; 
+					-ms-transition: all 0.2s linear; 
+					transition: all 0.2s linear;
+					@media (max-width: $screen-xs){
+						width: 100%;
+					}
+				}
+			}	
+		}
+	}
+}
+
+/* Left hook CSS */
+#htmlcontent_left {
+}
+
+/* Right hook CSS */
+#htmlcontent_right {
+}
+
+/* Footer hook CSS */
+#htmlcontent_footer {
+}

@@ -489,38 +489,40 @@
 				{/if}
 			{else}
 				{foreach from=$formattedAddresses key=k item=address}
-					<div class="col-xs-12 col-sm-6"{if $k == 'delivery' && !$have_non_virtual_products} style="display: none;"{/if}>
-						<ul class="address {if $address@last}last_item{elseif $address@first}first_item{/if} {if $address@index % 2}alternate_item{else}item{/if} box">
-							<li>
-								<h3 class="page-subheading">
-									{if $k eq 'invoice'}
-										{l s='Invoice address'}
-									{elseif $k eq 'delivery' && $delivery->id}
-										{l s='Delivery address'}
-									{/if}
-									{if isset($address.object.alias)}
-										<span class="address_alias">({$address.object.alias})</span>
-									{/if}
-								</h3>
-							</li>
-							{foreach $address.ordered as $pattern}
-								{assign var=addressKey value=" "|explode:$pattern}
-								{assign var=addedli value=false}
-								{foreach from=$addressKey item=key name=foo}
-									{if isset($address.formated[$key]) && !empty($address.formated[$key])}
-										{if (!$addedli)}
-											{$addedli = true}
-											<li><span class="{if isset($addresses_style[$key])}{$addresses_style[$key]}{/if}">
+					{if $k eq 'delivery'}
+						<div class="col-xs-12 col-sm-6"{if $k == 'delivery' && !$have_non_virtual_products} style="display: none;"{/if}>
+							<ul class="address {if $address@last}last_item{elseif $address@first}first_item{/if} {if $address@index % 2}alternate_item{else}item{/if} box">
+								<li>
+									<h3 class="page-subheading">
+										{if $k eq 'invoice'}
+											{l s='Invoice address'}
+										{elseif $k eq 'delivery' && $delivery->id}
+											{l s='Delivery address'}
 										{/if}
-										{$address.formated[$key]|escape:'html':'UTF-8'}
-									{/if}
-									{if ($smarty.foreach.foo.last && $addedli)}
-										</span></li>
-									{/if}
+										{if isset($address.object.alias)}
+											<span class="address_alias">({$address.object.alias})</span>
+										{/if}
+									</h3>
+								</li>
+								{foreach $address.ordered as $pattern}
+									{assign var=addressKey value=" "|explode:$pattern}
+									{assign var=addedli value=false}
+									{foreach from=$addressKey item=key name=foo}
+										{if isset($address.formated[$key]) && !empty($address.formated[$key])}
+											{if (!$addedli)}
+												{$addedli = true}
+												<li><span class="{if isset($addresses_style[$key])}{$addresses_style[$key]}{/if}">
+											{/if}
+											{$address.formated[$key]|escape:'html':'UTF-8'}
+										{/if}
+										{if ($smarty.foreach.foo.last && $addedli)}
+											</span></li>
+										{/if}
+									{/foreach}
 								{/foreach}
-							{/foreach}
-						</ul>
-					</div>
+							</ul>
+						</div>
+					{/if}
 				{/foreach}
 			{/if}
 		</div>

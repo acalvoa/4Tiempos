@@ -406,6 +406,7 @@ class ParentOrderControllerCore extends FrontController
             }
 
             $customerAddresses = array_values($customerAddresses);
+            
 
             if (!count($customerAddresses) && !Tools::isSubmit('ajax')) {
                 $bad_delivery = false;

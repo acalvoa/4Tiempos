@@ -24,8 +24,13 @@
                             {assign var=addressKey value=" "|explode:$pattern}
                             <li>
                                 {foreach from=$addressKey item=key name="word_loop"}
+
                                     <span {if isset($addresses_style[$key])} class="{$addresses_style[$key]}"{/if}>
+                                        {if $key eq 'comuna'}
+                                            {$comunas_list[$address.formated[$key|replace:',':'']]}
+                                        {else}
                                         {$address.formated[$key|replace:',':'']|escape:'html':'UTF-8'}
+                                        {/if}
                                     </span>
                                 {/foreach}
                             </li>

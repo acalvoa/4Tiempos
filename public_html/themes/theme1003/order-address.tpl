@@ -57,10 +57,6 @@
 			<ul class="address item box" id="address_delivery">
 			</ul>
 		</div>
-		<div class="col-xs-12 col-sm-6">
-			<ul class="address alternate_item{if $cart->isVirtualCart()} full_width{/if} box" id="address_invoice">
-			</ul>
-		</div>
 	</div> <!-- end row -->
 	<p class="address_add submit">
 		<a href="{$link->getPageLink('address', true, NULL, "back={$back_order_page}?step=1{if $back}&mod={$back}{/if}")|escape:'html':'UTF-8'}" title="{l s='Add'}" class="button button-small btn btn-default">

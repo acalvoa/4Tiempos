@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>shipit</name>
+	<displayName><![CDATA[Shipit Shipping]]></displayName>
+	<version><![CDATA[1.0]]></version>
+	<description><![CDATA[Modulo de calculo de transporte de la empresa shipit]]></description>
+	<author><![CDATA[4tiempos]]></author>
+	<tab><![CDATA[shipping_logistics]]></tab>
+	<is_configurable>0</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries>cl</limited_countries>
+</module>

@@ -85,14 +85,14 @@
   ),
   'Address' => 
   array (
-    'path' => '',
+    'path' => 'override/classes/Address.php',
     'type' => 'class',
     'override' => false,
   ),
   'AddressController' => 
   array (
-    'path' => '',
-    'type' => 'class',
+    'path' => 'override/controllers/front/AddressController.php',
+    'type' => 'Class',
     'override' => false,
   ),
   'AddressControllerCore' => 
@@ -127,7 +127,7 @@
   ),
   'AddressesControllerCore' => 
   array (
-    'path' => 'controllers/front/AddressesController.php',
+    'path' => 'override/controllers/front/AddressesController.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -157,7 +157,7 @@
   ),
   'AdminAddressesController' => 
   array (
-    'path' => '',
+    'path' => 'override/controllers/admin/AdminAddressesController.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -320,6 +320,18 @@
   'AdminCmsControllerCore' => 
   array (
     'path' => 'controllers/admin/AdminCmsController.php',
+    'type' => 'class',
+    'override' => false,
+  ),
+  'AdminComunasController' => 
+  array (
+    'path' => '',
+    'type' => 'class',
+    'override' => false,
+  ),
+  'AdminComunasControllerCore' => 
+  array (
+    'path' => 'controllers/admin/AdminComunasController.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -875,6 +887,18 @@
     'type' => 'class',
     'override' => false,
   ),
+  'AdminRegionesController' => 
+  array (
+    'path' => '',
+    'type' => 'class',
+    'override' => false,
+  ),
+  'AdminRegionesControllerCore' => 
+  array (
+    'path' => 'controllers/admin/AdminRegionesController.php',
+    'type' => 'class',
+    'override' => false,
+  ),
   'AdminRequestSqlController' => 
   array (
     'path' => '',
@@ -944,6 +968,18 @@
   'AdminSearchEnginesControllerCore' => 
   array (
     'path' => 'controllers/admin/AdminSearchEnginesController.php',
+    'type' => 'class',
+    'override' => false,
+  ),
+  'AdminShipitController' => 
+  array (
+    'path' => '',
+    'type' => 'class',
+    'override' => false,
+  ),
+  'AdminShipitControllerCore' => 
+  array (
+    'path' => 'controllers/admin/AdminShipitController.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -1670,6 +1706,12 @@
   'CompareProductCore' => 
   array (
     'path' => 'classes/CompareProduct.php',
+    'type' => 'class',
+    'override' => false,
+  ),
+  'ComunasData' => 
+  array (
+    'path' => 'controllers/admin/model/ComunasData.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -2917,7 +2959,7 @@
   ),
   'OrderControllerCore' => 
   array (
-    'path' => 'controllers/front/OrderController.php',
+    'path' => 'override/controllers/front/OrderController.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3175,7 +3217,7 @@
   ),
   'ParentOrderControllerCore' => 
   array (
-    'path' => 'controllers/front/ParentOrderController.php',
+    'path' => 'override/controllers/front/ParentOrderController.php',
     'type' => 'class',
     'override' => false,
   ),
@@ -3473,6 +3515,12 @@
     'type' => 'class',
     'override' => false,
   ),
+  'RegionesData' => 
+  array (
+    'path' => 'controllers/admin/model/RegionesData.php',
+    'type' => 'class',
+    'override' => false,
+  ),
   'RequestSql' => 
   array (
     'path' => '',
@@ -3554,6 +3602,12 @@
   'SearchEngineCore' => 
   array (
     'path' => 'classes/SearchEngine.php',
+    'type' => 'class',
+    'override' => false,
+  ),
+  'ShipitData' => 
+  array (
+    'path' => 'controllers/admin/model/ShipitData.php',
     'type' => 'class',
     'override' => false,
   ),

@@ -62,7 +62,7 @@ class AddressesControllerCore extends FrontController
     public function initContent()
     {
         parent::initContent();
-
+        $this->getComunas();
         $total = 0;
         $multiple_addresses_formated = array();
         $ordered_fields = array();
@@ -105,5 +105,20 @@ class AddressesControllerCore extends FrontController
         ));
 
         $this->setTemplate(_PS_THEME_DIR_.'addresses.tpl');
+    }
+    public function getComunas(){
+        $sql = new DbQuery();
+        $sql->select('*');
+        $sql->from('comunas', 'c');
+        $comuna_output = array();
+        $comunas = Db::getInstance()->executeS($sql);
+        foreach ($comunas as $comuna) {
+            $comuna_output[$comuna['id_comunas']] = $comuna['nombre'];
+        }
+
+        // Assign vars
+        $this->context->smarty->assign(array(
+            'comunas_list' => $comuna_output,
+        ));
     }
 }

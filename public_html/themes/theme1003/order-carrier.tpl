@@ -49,20 +49,30 @@
 									<div>
 										<table class="resume table table-bordered">
 											<tr>
+												<td></td>
+												<td>Empresa</td>
+												<td>Comuna</td>
+												<td>Tiempo estimado de envio</td>
+												<td>Valor</td>
+											</tr>
+											<tr>
 												<td class="delivery_option_radio">
 													<input id="delivery_option_{$id_address}_{$option@index}" class="delivery_option_radio" type="radio" name="delivery_option[{$id_address}]" data-key="{$key}" data-id_address="{$id_address|intval}" value="{$key}"{if isset($delivery_option[$id_address]) && $delivery_option[$id_address] == $key} checked="checked"{/if} />
 												</td>
+
 												<td class="delivery_option_logo">
 													{foreach $option.carrier_list as $carrier}
 														{if $carrier.logo}
-															<img src="{$carrier.logo}" alt="{$carrier.instance->name}"/>
+															<img src="{$carrier.logo}" height="30" alt="{$carrier.instance->name}"/>
 														{else if !$option.unique_carrier}
 															{$carrier.instance->name}
 															{if !$carrier@last} - {/if}
 														{/if}
 													{/foreach}
 												</td>
-												<td>
+												<td>{$shipping_data['comuna']}</td>
+												<td>{$shipping_data['delay']} Dia(s)</td>
+												<!-- <td>
 													{if $option.unique_carrier}
 														{foreach $option.carrier_list as $carrier}
 															{$carrier.instance->name}
@@ -84,7 +94,7 @@
 															{/if}
 														{/if}
 													{/if}
-												</td>
+												</td> -->
 												<td class="delivery_option_price">
 													<div class="delivery_option_price">
 														{if $option.total_price_with_tax && !$option.is_free && (!isset($free_shipping) || (isset($free_shipping) && !$free_shipping))}

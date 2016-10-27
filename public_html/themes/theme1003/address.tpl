@@ -42,6 +42,17 @@
 					</div>
 				</div>
 			{/if}
+			<!-- {if $field_name eq 'mi_campo'}
+			 <div id="vat_area">
+			  <div id="mi_campo">
+			   <div class="form-group">
+			    <label for="mi_campo">{l s='Mi_campo'}</label>
+			    <input type="text" class="form-control validate" data-validate="{$address_validation.$field_name.validate}" id="mi_campo" name="mi_campo" value="{if isset($smarty.post.mi_campo)}{$smarty.post.mi_campo}{else}{if isset($address->mi_campo)}{$address->mi_campo|escape:'html':'UTF-8'}{/if}{/if}" />
+			   </div>
+			  </div>
+			 </div>
+			{/if} -->
+			
 			{if $field_name eq 'dni'}
 			{assign var="dniExist" value=true}
 			<div class="required form-group">
@@ -66,6 +77,12 @@
 				<div class="required form-group">
 					<label for="address1">{l s='Address'} <sup>*</sup></label>
 					<input class="is_required validate form-control" data-validate="{$address_validation.$field_name.validate}" type="text" id="address1" name="address1" value="{if isset($smarty.post.address1)}{$smarty.post.address1}{else}{if isset($address->address1)}{$address->address1|escape:'html':'UTF-8'}{/if}{/if}" />
+				</div>
+			{/if}
+			{if $field_name eq 'comuna'}
+			 	<div class="required form-group">
+					<label for="id_comunas">{l s='Comuna'}<sup>*</sup></label>
+					<select id="id_comunas" class="form-control" name="comuna">{$comunas_list}</select>
 				</div>
 			{/if}
 			{if $field_name eq 'address2'}

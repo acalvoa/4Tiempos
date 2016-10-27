@@ -1,0 +1,101 @@
+*ERROR* 	2016/10/24 - 00:17:01: Country cannot be loaded with address->id_country at line 48 in file override/controllers/front/AddressController.php
+*ERROR* 	2016/10/24 - 02:02:29: Unknown column 'cl.id_comunas' in 'field list'<br /><br /><pre>SELECT
+								a.`id_address`, a.`firstname` AS `firstname`, a.`lastname` AS `lastname`, `address1`, cl.`id_comunas` AS `comuna`, `city`, cl.`id_country` AS `country`
+			, cl.`name` as country
+			FROM `ps_address` a 
+			
+			
+            LEFT JOIN `ps_country_lang` cl ON (cl.`id_country` = a.`id_country` AND cl.`id_lang` = 4)
+            LEFT JOIN `ps_customer` c ON a.id_customer = c.id_customer
+         
+			 WHERE 1  AND a.id_customer != 0  AND c.id_shop IN (1)  AND a.`deleted` = 0 
+			
+			 ORDER BY a.`id_address` ASC  LIMIT 0, 50</pre> at line 791 in file classes/db/Db.php
+*ERROR* 	2016/10/24 - 02:02:41: Unknown column 'cl.id_comuna' in 'field list'<br /><br /><pre>SELECT
+								a.`id_address`, a.`firstname` AS `firstname`, a.`lastname` AS `lastname`, `address1`, cl.`id_comuna` AS `comuna`, `city`, cl.`id_country` AS `country`
+			, cl.`name` as country
+			FROM `ps_address` a 
+			
+			
+            LEFT JOIN `ps_country_lang` cl ON (cl.`id_country` = a.`id_country` AND cl.`id_lang` = 4)
+            LEFT JOIN `ps_customer` c ON a.id_customer = c.id_customer
+         
+			 WHERE 1  AND a.id_customer != 0  AND c.id_shop IN (1)  AND a.`deleted` = 0 
+			
+			 ORDER BY a.`id_address` ASC  LIMIT 0, 50</pre> at line 791 in file classes/db/Db.php
+*ERROR* 	2016/10/24 - 02:02:42: Unknown column 'cl.id_comuna' in 'field list'<br /><br /><pre>SELECT
+								a.`id_address`, a.`firstname` AS `firstname`, a.`lastname` AS `lastname`, `address1`, cl.`id_comuna` AS `comuna`, `city`, cl.`id_country` AS `country`
+			, cl.`name` as country
+			FROM `ps_address` a 
+			
+			
+            LEFT JOIN `ps_country_lang` cl ON (cl.`id_country` = a.`id_country` AND cl.`id_lang` = 4)
+            LEFT JOIN `ps_customer` c ON a.id_customer = c.id_customer
+         
+			 WHERE 1  AND a.id_customer != 0  AND c.id_shop IN (1)  AND a.`deleted` = 0 
+			
+			 ORDER BY a.`id_address` ASC  LIMIT 0, 50</pre> at line 791 in file classes/db/Db.php
+*ERROR* 	2016/10/24 - 02:02:59: Unknown column 'cl.comuna' in 'field list'<br /><br /><pre>SELECT
+								a.`id_address`, a.`firstname` AS `firstname`, a.`lastname` AS `lastname`, `address1`, cl.`comuna` AS `comuna`, `city`, cl.`id_country` AS `country`
+			, cl.`name` as country
+			FROM `ps_address` a 
+			
+			
+            LEFT JOIN `ps_country_lang` cl ON (cl.`id_country` = a.`id_country` AND cl.`id_lang` = 4)
+            LEFT JOIN `ps_customer` c ON a.id_customer = c.id_customer
+         
+			 WHERE 1  AND a.id_customer != 0  AND c.id_shop IN (1)  AND a.`deleted` = 0 
+			
+			 ORDER BY a.`id_address` ASC  LIMIT 0, 50</pre> at line 791 in file classes/db/Db.php
+*ERROR* 	2016/10/24 - 02:03:00: Unknown column 'cl.comuna' in 'field list'<br /><br /><pre>SELECT
+								a.`id_address`, a.`firstname` AS `firstname`, a.`lastname` AS `lastname`, `address1`, cl.`comuna` AS `comuna`, `city`, cl.`id_country` AS `country`
+			, cl.`name` as country
+			FROM `ps_address` a 
+			
+			
+            LEFT JOIN `ps_country_lang` cl ON (cl.`id_country` = a.`id_country` AND cl.`id_lang` = 4)
+            LEFT JOIN `ps_customer` c ON a.id_customer = c.id_customer
+         
+			 WHERE 1  AND a.id_customer != 0  AND c.id_shop IN (1)  AND a.`deleted` = 0 
+			
+			 ORDER BY a.`id_address` ASC  LIMIT 0, 50</pre> at line 791 in file classes/db/Db.php
+*ERROR* 	2016/10/24 - 02:03:00: Unknown column 'cl.comuna' in 'field list'<br /><br /><pre>SELECT
+								a.`id_address`, a.`firstname` AS `firstname`, a.`lastname` AS `lastname`, `address1`, cl.`comuna` AS `comuna`, `city`, cl.`id_country` AS `country`
+			, cl.`name` as country
+			FROM `ps_address` a 
+			
+			
+            LEFT JOIN `ps_country_lang` cl ON (cl.`id_country` = a.`id_country` AND cl.`id_lang` = 4)
+            LEFT JOIN `ps_customer` c ON a.id_customer = c.id_customer
+         
+			 WHERE 1  AND a.id_customer != 0  AND c.id_shop IN (1)  AND a.`deleted` = 0 
+			
+			 ORDER BY a.`id_address` ASC  LIMIT 0, 50</pre> at line 791 in file classes/db/Db.php
+*ERROR* 	2016/10/24 - 02:03:56: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'comuna`, `city`, cl.`id_country` AS `country`
+			, cl.`name` as country
+			FROM ' at line 2<br /><br /><pre>SELECT
+								a.`id_address`, a.`firstname` AS `firstname`, a.`lastname` AS `lastname`, `address1`, comuna` AS `comuna`, `city`, cl.`id_country` AS `country`
+			, cl.`name` as country
+			FROM `ps_address` a 
+			
+			
+            LEFT JOIN `ps_country_lang` cl ON (cl.`id_country` = a.`id_country` AND cl.`id_lang` = 4)
+            LEFT JOIN `ps_customer` c ON a.id_customer = c.id_customer
+         
+			 WHERE 1  AND a.id_customer != 0  AND c.id_shop IN (1)  AND a.`deleted` = 0 
+			
+			 ORDER BY a.`id_address` ASC  LIMIT 0, 50</pre> at line 791 in file classes/db/Db.php
+*ERROR* 	2016/10/24 - 02:04:01: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'comuna`, `city`, cl.`id_country` AS `country`
+			, cl.`name` as country
+			FROM ' at line 2<br /><br /><pre>SELECT
+								a.`id_address`, a.`firstname` AS `firstname`, a.`lastname` AS `lastname`, `address1`, comuna` AS `comuna`, `city`, cl.`id_country` AS `country`
+			, cl.`name` as country
+			FROM `ps_address` a 
+			
+			
+            LEFT JOIN `ps_country_lang` cl ON (cl.`id_country` = a.`id_country` AND cl.`id_lang` = 4)
+            LEFT JOIN `ps_customer` c ON a.id_customer = c.id_customer
+         
+			 WHERE 1  AND a.id_customer != 0  AND c.id_shop IN (1)  AND a.`deleted` = 0 
+			
+			 ORDER BY a.`id_address` ASC  LIMIT 0, 50</pre> at line 791 in file classes/db/Db.php

@@ -270,7 +270,7 @@ class WebpayKccCallback {
                                                     // Verification OK
                                                     // Change the order status
                                                     $logger("Transbank Verification Complete");
-
+                                                    logger("Pre-Result: PRE-OK");
                                                     $current_state = $order->current_state;
                                                     logger("Pre-Result: OK");
                                                     try {

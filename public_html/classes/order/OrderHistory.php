@@ -436,6 +436,34 @@ class OrderHistoryCore extends ObjectModel
 
     public function sendEmail($order, $template_vars = false)
     {
+        // Log helper closure
+        $log = function($message) {
+
+          $today = date('Y-m-d');
+
+          $now = date('Y-m-d H:i:s');
+
+          $name = "validation.$today.log";
+
+          // $path = _PS_MODULE_DIR_ . 'webpaykcc/logs/';
+
+          $logPath = "/home/testing.4tiempos.cl/cgi-bin/log/";
+
+          if($logPath){
+            $path = $logPath;
+          }
+
+          $logFile = $path . $name;
+
+          $log = fopen($logFile, 'a');
+
+          $text = "$now : $message\n";
+
+          fwrite($log, $text);
+
+          fclose($log);
+        };
+        $log("INICIAMOS MAILING DB");
         $result = Db::getInstance()->getRow('
 			SELECT osl.`template`, c.`lastname`, c.`firstname`, osl.`name` AS osname, c.`email`, os.`module_name`, os.`id_order_state`, os.`pdf_invoice`, os.`pdf_delivery`
 			FROM `'._DB_PREFIX_.'order_history` oh
@@ -444,9 +472,11 @@ class OrderHistoryCore extends ObjectModel
 				LEFT JOIN `'._DB_PREFIX_.'order_state` os ON oh.`id_order_state` = os.`id_order_state`
 				LEFT JOIN `'._DB_PREFIX_.'order_state_lang` osl ON (os.`id_order_state` = osl.`id_order_state` AND osl.`id_lang` = o.`id_lang`)
 			WHERE oh.`id_order_history` = '.(int)$this->id.' AND os.`send_email` = 1');
+        $log("RECUPERAMOS DB");
         if (isset($result['template']) && Validate::isEmail($result['email'])) {
+            $log("ENTRAMOS");
             ShopUrl::cacheMainDomainForShop($order->id_shop);
-
+            $log("BORRAMOS CACHE");
             $topic = $result['osname'];
             $data = array(
                 '{lastname}' => $result['lastname'],
@@ -454,51 +484,65 @@ class OrderHistoryCore extends ObjectModel
                 '{id_order}' => (int)$this->id_order,
                 '{order_name}' => $order->getUniqReference()
             );
-
+            $log("DECLARAMOS VARIABLES");
             if ($result['module_name']) {
                 $module = Module::getInstanceByName($result['module_name']);
                 if (Validate::isLoadedObject($module) && isset($module->extra_mail_vars) && is_array($module->extra_mail_vars)) {
                     $data = array_merge($data, $module->extra_mail_vars);
                 }
             }
-
+            $log("2");
             if ($template_vars) {
                 $data = array_merge($data, $template_vars);
             }
-
+            $log("3");
             $data['{total_paid}'] = Tools::displayPrice((float)$order->total_paid, new Currency((int)$order->id_currency), false);
-
+            $log("4");
             if (Validate::isLoadedObject($order)) {
                 // Attach invoice and / or delivery-slip if they exists and status is set to attach them
+                $log("5");
                 if (($result['pdf_invoice'] || $result['pdf_delivery'])) {
+                    $log("6");
                     $context = Context::getContext();
                     $invoice = $order->getInvoicesCollection();
                     $file_attachement = array();
-
+                    $log("7");
                     if ($result['pdf_invoice'] && (int)Configuration::get('PS_INVOICE') && $order->invoice_number) {
+                        $log("8");
                         Hook::exec('actionPDFInvoiceRender', array('order_invoice_list' => $invoice));
+                        $log("9");
                         $pdf = new PDF($invoice, PDF::TEMPLATE_INVOICE, $context->smarty);
                         $file_attachement['invoice']['content'] = $pdf->render(false);
                         $file_attachement['invoice']['name'] = Configuration::get('PS_INVOICE_PREFIX', (int)$order->id_lang, null, $order->id_shop).sprintf('%06d', $order->invoice_number).'.pdf';
                         $file_attachement['invoice']['mime'] = 'application/pdf';
+                        $log("10");
                     }
+                    $log("13.2");
                     if ($result['pdf_delivery'] && $order->delivery_number) {
+                        $log("11");
                         $pdf = new PDF($invoice, PDF::TEMPLATE_DELIVERY_SLIP, $context->smarty);
+                        $log("12");
                         $file_attachement['delivery']['content'] = $pdf->render(false);
                         $file_attachement['delivery']['name'] = Configuration::get('PS_DELIVERY_PREFIX', Context::getContext()->language->id, null, $order->id_shop).sprintf('%06d', $order->delivery_number).'.pdf';
                         $file_attachement['delivery']['mime'] = 'application/pdf';
+                        $log("13");
                     }
+                    $log("14");
                 } else {
+                    $log("15");
                     $file_attachement = null;
                 }
-
+                $log("20");
                 if (!Mail::Send((int)$order->id_lang, $result['template'], $topic, $data, $result['email'], $result['firstname'].' '.$result['lastname'],
+                    $log("21");
                     null, null, $file_attachement, null, _PS_MAIL_DIR_, false, (int)$order->id_shop)) {
                     return false;
+                    $log("22");
                 }
             }
-
+            $log("24");
             ShopUrl::resetMainDomainCache();
+            $log("25");
         }
 
         return true;

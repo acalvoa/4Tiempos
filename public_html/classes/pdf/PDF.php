@@ -72,7 +72,7 @@ class PDFCore
      */
     public function render($display = true)
     {
-        $render = false;
+         
         $this->pdf_renderer->setFontForLang(Context::getContext()->language->iso_code);
         foreach ($this->objects as $object) {
             $this->pdf_renderer->startPageGroup();

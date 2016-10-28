@@ -274,7 +274,7 @@ class WebpayKccCallback {
                                                     $current_state = $order->current_state;
                                                     $logger("Pre-Result: OK");
                                                     try {
-                                                    
+                                                        $logger("Result change: ".$order_state_completed);
                                                         $order->setCurrentState($order_state_completed);
                                                         
                                                         $logger("Order State Was Changed From ($current_state) to ({$order->current_state})");

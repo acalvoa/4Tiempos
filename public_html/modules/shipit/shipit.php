@@ -245,24 +245,27 @@ class Shipit extends CarrierModule{
         $address = new Address($address_delivery);
         $cost = 0;
         $productos = $params->getProducts(true);
-        foreach ($productos as $key => $value) {
-            $weight = (float)$value['weight'];
-            $width = (float)$value['width'];
-            $height = (float)$value['height'];
-            $depth = (float)$value['depth'];
-            $sql = new DbQuery();
-            $sql->select('*');
-            $sql->from('shipit_table', 'c');
-            $sql->where('c.COMUNA = '.$address->comuna);
-            $comuna_output = Db::getInstance()->executeS($sql);
-            $comuna_output = $comuna_output[0];
-            $rate = $this->calculate($weight);
-            if($rate != 'RATE42'){
-                $cost += $comuna_output[$rate];
-            }
-            else{
-                $cost += $comuna_output['RATE41']+($comuna_output['RATE41']*ceil($weight-40));
-            }
+        if($address)
+        {
+           foreach ($productos as $key => $value) {
+                $weight = (float)$value['weight'];
+                $width = (float)$value['width'];
+                $height = (float)$value['height'];
+                $depth = (float)$value['depth'];
+                $sql = new DbQuery();
+                $sql->select('*');
+                $sql->from('shipit_table', 'c');
+                $sql->where('c.COMUNA = '.$address->comuna);
+                $comuna_output = Db::getInstance()->executeS($sql);
+                $comuna_output = $comuna_output[0];
+                $rate = $this->calculate($weight);
+                if($rate != 'RATE42'){
+                    $cost += $comuna_output[$rate];
+                }
+                else{
+                    $cost += $comuna_output['RATE41']+($comuna_output['RATE41']*ceil($weight-40));
+                }
+            } 
         }
         return $cost;
     }
@@ -271,23 +274,25 @@ class Shipit extends CarrierModule{
         $address_delivery = $params->id_address_delivery;
         $address = new Address($address_delivery);
         $cost = 0;
-        $productos = $params->getProducts(true);
-        foreach ($productos as $key => $value) {
-            $weight = (float)$value['weight'];
-            $width = (float)$value['width'];
-            $height = (float)$value['height'];
-            $depth = (float)$value['depth'];
-            $sql = new DbQuery();
-            $sql->select('*');
-            $sql->from('shipit_table', 'c');
-            $sql->where('c.COMUNA = '.$address->comuna);
-            $comuna_output = Db::getInstance()->executeS($sql);
-            $rate = $this->calculate($weight);
-            if($rate != 'RATE42'){
-                $cost += $comuna_output[$rate];
-            }
-            else{
-                $cost += $comuna_output['RATE41']+($comuna_output['RATE41']*ceil($weight-40));
+        if($address){
+            $productos = $params->getProducts(true);
+            foreach ($productos as $key => $value) {
+                $weight = (float)$value['weight'];
+                $width = (float)$value['width'];
+                $height = (float)$value['height'];
+                $depth = (float)$value['depth'];
+                $sql = new DbQuery();
+                $sql->select('*');
+                $sql->from('shipit_table', 'c');
+                $sql->where('c.COMUNA = '.$address->comuna);
+                $comuna_output = Db::getInstance()->executeS($sql);
+                $rate = $this->calculate($weight);
+                if($rate != 'RATE42'){
+                    $cost += $comuna_output[$rate];
+                }
+                else{
+                    $cost += $comuna_output['RATE41']+($comuna_output['RATE41']*ceil($weight-40));
+                }
             }
         }
         return $cost;

@@ -512,8 +512,11 @@ class OrderHistoryCore extends ObjectModel
                         Hook::exec('actionPDFInvoiceRender', array('order_invoice_list' => $invoice));
                         $log("9");
                         $pdf = new PDF($invoice, PDF::TEMPLATE_INVOICE, $context->smarty);
+                        $log("9.1");
                         $file_attachement['invoice']['content'] = $pdf->render(false);
+                        $log("9.2");
                         $file_attachement['invoice']['name'] = Configuration::get('PS_INVOICE_PREFIX', (int)$order->id_lang, null, $order->id_shop).sprintf('%06d', $order->invoice_number).'.pdf';
+                        $log("9.3");
                         $file_attachement['invoice']['mime'] = 'application/pdf';
                         $log("10");
                     }

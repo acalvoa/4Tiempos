@@ -394,16 +394,43 @@ class OrderHistoryCore extends ObjectModel
      */
     public function addWithemail($autodate = true, $template_vars = false, Context $context = null)
     {
-        $order = new Order($this->id_order);
+        // Log helper closure
+        $log = function($message) {
 
+          $today = date('Y-m-d');
+
+          $now = date('Y-m-d H:i:s');
+
+          $name = "validation.$today.log";
+
+          // $path = _PS_MODULE_DIR_ . 'webpaykcc/logs/';
+
+          $logPath = "/home/testing.4tiempos.cl/cgi-bin/log/";
+
+          if($logPath){
+            $path = $logPath;
+          }
+
+          $logFile = $path . $name;
+
+          $log = fopen($logFile, 'a');
+
+          $text = "$now : $message\n";
+
+          fwrite($log, $text);
+
+          fclose($log);
+        };
+        $order = new Order($this->id_order);
+        $log("se inicia la orden");
         if (!$this->add($autodate)) {
             return false;
         }
-
+        $log("se agrega la autodate");
         if (!$this->sendEmail($order, $template_vars)) {
             return false;
         }
-
+        $log("se envia el email");
         return true;
     }
 

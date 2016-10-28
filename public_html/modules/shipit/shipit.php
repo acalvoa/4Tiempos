@@ -282,11 +282,8 @@ class Shipit extends CarrierModule{
             $sql->from('shipit_table', 'c');
             $sql->where('c.COMUNA = '.$address->comuna);
             $comuna_output = Db::getInstance()->executeS($sql);
-            print_r($comuna_output);
-            die();
             $rate = $this->calculate($weight);
             if($rate != 'RATE42'){
-                print_r($comuna_output);
                 $cost += $comuna_output[$rate];
             }
             else{

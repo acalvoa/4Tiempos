@@ -72,83 +72,39 @@ class PDFCore
      */
     public function render($display = true)
     {
-        // Log helper closure
-        $log = function($message) {
-
-          $today = date('Y-m-d');
-
-          $now = date('Y-m-d H:i:s');
-
-          $name = "validation.$today.log";
-
-          // $path = _PS_MODULE_DIR_ . 'webpaykcc/logs/';
-
-          $logPath = "/home/testing.4tiempos.cl/cgi-bin/log/";
-
-          if($logPath){
-            $path = $logPath;
-          }
-
-          $logFile = $path . $name;
-
-          $log = fopen($logFile, 'a');
-
-          $text = "$now : $message\n";
-
-          fwrite($log, $text);
-
-          fclose($log);
-        };
         $render = false;
-        $log("PDF-1");
         $this->pdf_renderer->setFontForLang(Context::getContext()->language->iso_code);
-        $log("PDF-2");
         foreach ($this->objects as $object) {
-            $log("PDF-6");    
             $this->pdf_renderer->startPageGroup();
-            $log("PDF-7");
             $template = $this->getTemplateObject($object);
-            $log("PDF-8");
             if (!$template) {
                 continue;
             }
-            $log("PDF-9");
+
             if (empty($this->filename)) {
                 $this->filename = $template->getFilename();
                 if (count($this->objects) > 1) {
                     $this->filename = $template->getBulkFilename();
                 }
             }
-            $log("PDF-10");
+
             $template->assignHookData($object);
-            $log("PDF-11");
+
             $this->pdf_renderer->createHeader($template->getHeader());
-            $log("PDF-12");
             $this->pdf_renderer->createFooter($template->getFooter());
-            $log("PDF-13");
             $this->pdf_renderer->createPagination($template->getPagination());
-            $log("PDF-14");
             $this->pdf_renderer->createContent($template->getContent());
-            $log("PDF-15");
-            try{
-                $this->pdf_renderer->writePage();    
-            }
-            catch(Exception $e){
-                $log($e->getMessage());    
-            }
-            $log("PDF-16");
+            $this->pdf_renderer->writePage();
             $render = true;
-            $log("PDF-17");
+
             unset($template);
         }
-        $log("PDF-3");
+
         if ($render) {
             // clean the output buffer
-            $log("PDF-4");
             if (ob_get_level() && ob_get_length() > 0) {
                 ob_clean();
             }
-            $log("PDF-5");
             return $this->pdf_renderer->render($this->filename, $display);
         }
     }

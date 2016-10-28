@@ -1543,60 +1543,25 @@ class OrderCore extends ObjectModel
      * @param int $id_employee (/!\ not optional except for Webservice.
      */
     public function setCurrentState($id_order_state, $id_employee = 0)
-    { // Log helper closure
-        $log = function($message) {
-
-          $today = date('Y-m-d');
-
-          $now = date('Y-m-d H:i:s');
-
-          $name = "validation.$today.log";
-
-          // $path = _PS_MODULE_DIR_ . 'webpaykcc/logs/';
-
-          $logPath = "/home/testing.4tiempos.cl/cgi-bin/log/";
-
-          if($logPath){
-            $path = $logPath;
-          }
-
-          $logFile = $path . $name;
-
-          $log = fopen($logFile, 'a');
-
-          $text = "$now : $message\n";
-
-          fwrite($log, $text);
-
-          fclose($log);
-        };
+    {
         if (empty($id_order_state)) {
             return false;
         }
-        $log("PARTIMOS EL CAMBIO DE ESTADO");
         $history = new OrderHistory();
-        $log("CREAMOS LA ORDEN HISTORY");
         $history->id_order = (int)$this->id;
-        $log("OBTENEMOS EL ID");
         $history->id_employee = (int)$id_employee;
-        $log("OBTENEMOS EL EMPLEADO");
         $history->changeIdOrderState((int)$id_order_state, $this);
-        $log("SE CAMBIA EL ID ORDER STATE");
         $res = Db::getInstance()->getRow('
 			SELECT `invoice_number`, `invoice_date`, `delivery_number`, `delivery_date`
 			FROM `'._DB_PREFIX_.'orders`
 			WHERE `id_order` = '.(int)$this->id);
-        $log("SE CONSULTA LA DB");
         $this->invoice_date = $res['invoice_date'];
         $this->invoice_number = $res['invoice_number'];
         $this->delivery_date = $res['delivery_date'];
         $this->delivery_number = $res['delivery_number'];
-        $log("SE CAMBIAN LOS DATOS");
         $this->update();
-        $log("SE EFECTUA EL UPDATE");
 
         $history->addWithemail();
-        $log("SE HACE CAMBIO CON EMAIL");
     }
 
     public function addWs($autodate = true, $null_values = false)

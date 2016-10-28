@@ -1544,7 +1544,7 @@ class OrderCore extends ObjectModel
      */
     public function setCurrentState($id_order_state, $id_employee = 0)
     { // Log helper closure
-        $logger = function($message) {
+        $log = function($message) {
 
           $today = date('Y-m-d');
 

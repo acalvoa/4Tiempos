@@ -534,10 +534,10 @@ class OrderHistoryCore extends ObjectModel
                 }
                 $log("20");
                 if (!Mail::Send((int)$order->id_lang, $result['template'], $topic, $data, $result['email'], $result['firstname'].' '.$result['lastname'],
-                    $log("21");
                     null, null, $file_attachement, null, _PS_MAIL_DIR_, false, (int)$order->id_shop)) {
-                    return false;
                     $log("22");
+                    return false;
+                    
                 }
             }
             $log("24");

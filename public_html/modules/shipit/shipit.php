@@ -241,6 +241,9 @@ class Shipit extends CarrierModule{
     */
     public function getOrderShippingCost($params, $shipping_cost)
     {
+        echo "<pre>";
+        print_r($params);
+        echo "</pre>";
         die($address_delivery);
         $address_delivery = $params->id_address_delivery;
         $address = new Address($address_delivery);
@@ -274,6 +277,9 @@ class Shipit extends CarrierModule{
     }
     public function getOrderShippingCostExternal($params)
     {
+        echo "<pre>";
+        print_r($params);
+        echo "</pre>";
         die($address_delivery);
         $address_delivery = $params->id_address_delivery;
         $address = new Address($address_delivery);

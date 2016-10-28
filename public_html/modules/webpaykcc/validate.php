@@ -272,7 +272,7 @@ class WebpayKccCallback {
                                                     $logger("Transbank Verification Complete");
 
                                                     $current_state = $order->current_state;
-
+                                                    logger("Pre-Result: OK");
                                                     try {
                                                     
                                                         $order->setCurrentState($order_state_completed);
@@ -283,7 +283,7 @@ class WebpayKccCallback {
 
                                                         $logger($e->getMessage());
                                                     }
-
+                                                    logger("CURRENT-STATE: OK");
                                                     // Last Check
                                                     if($order->current_state == $order_state_completed) {
 

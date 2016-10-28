@@ -259,12 +259,13 @@ class Shipit extends CarrierModule{
                 $comuna_output = Db::getInstance()->executeS($sql);
                 $comuna_output = $comuna_output[0];
                 $rate = $this->calculate($weight);
-                die($rate);
-                if($rate != 'RATE42'){
-                    $cost += $comuna_output[$rate];
-                }
-                else{
-                    $cost += $comuna_output['RATE41']+($comuna_output['RATE41']*ceil($weight-40));
+                if(!empty($rate)){
+                    if($rate != 'RATE42'){
+                        $cost += $comuna_output[$rate];
+                    }
+                    else{
+                        $cost += $comuna_output['RATE41']+($comuna_output['RATE41']*ceil($weight-40));
+                    }
                 }
             } 
         }
@@ -288,12 +289,13 @@ class Shipit extends CarrierModule{
                 $sql->where('c.COMUNA = '.$address->comuna);
                 $comuna_output = Db::getInstance()->executeS($sql);
                 $rate = $this->calculate($weight);
-                die($rate);
-                if($rate != 'RATE42'){
-                    $cost += $comuna_output[$rate];
-                }
-                else{
-                    $cost += $comuna_output['RATE41']+($comuna_output['RATE41']*ceil($weight-40));
+                if(!empty($rate)){
+                    if($rate != 'RATE42'){
+                        $cost += $comuna_output[$rate];
+                    }
+                    else{
+                        $cost += $comuna_output['RATE41']+($comuna_output['RATE41']*ceil($weight-40));
+                    }
                 }
             }
         }

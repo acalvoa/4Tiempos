@@ -130,7 +130,12 @@ class PDFCore
             $log("PDF-14");
             $this->pdf_renderer->createContent($template->getContent());
             $log("PDF-15");
-            $this->pdf_renderer->writePage();
+            try{
+                $this->pdf_renderer->writePage();    
+            }
+            catch(Exception $e){
+                $log($e->getMessage());    
+            }
             $log("PDF-16");
             $render = true;
             $log("PDF-17");

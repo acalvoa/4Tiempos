@@ -213,43 +213,11 @@ class PDFGeneratorCore extends TCPDF
     public function writePage()
     {
         // Log helper closure
-        $log = function($message) {
-
-          $today = date('Y-m-d');
-
-          $now = date('Y-m-d H:i:s');
-
-          $name = "validation.$today.log";
-
-          // $path = _PS_MODULE_DIR_ . 'webpaykcc/logs/';
-
-          $logPath = Configuration::get(KCC_LOG);
-
-          if($logPath){
-            $path = $logPath;
-          }
-
-          $logFile = $path . $name;
-
-          $log = fopen($logFile, 'a');
-
-          $text = "$now : $message\n";
-
-          fwrite($log, $text);
-
-          fclose($log);
-        };
-        $log("1");
         $this->SetHeaderMargin(5);
-        $log("2");
         $this->SetFooterMargin(21);
-        $log("3");
         $this->setMargins(10, 40, 10);
-        $log("4");
         $this->AddPage();
-        $log("5");
         $this->writeHTML($this->content, true, false, true, false, '');
-        $log("6");
     }
 
     /**

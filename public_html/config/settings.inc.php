@@ -5,7 +5,7 @@ define('_DB_USER_', 'root');
 define('_DB_PASSWD_', 'shadowfax');
 define('_DB_PREFIX_', 'ps_');
 define('_MYSQL_ENGINE_', 'InnoDB');
-define('_PS_CACHING_SYSTEM_', 'CacheMemcache');
+define('_PS_CACHING_SYSTEM_', 'CacheFs');
 define('_PS_CACHE_ENABLED_', '0');
 define('_COOKIE_KEY_', 'S1WZ52vEgwyALsDsFURJ2WZvIzLXfQXrt3Owd4JKLj1kxAdpsA3zjGP2');
 define('_COOKIE_IV_', 'TioJCOZX');

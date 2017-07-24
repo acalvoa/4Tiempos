@@ -1,33 +1,28 @@
-<!--
-IF YOU DON'T FILL OUT THE FOLLOWING INFORMATION WE MIGHT CLOSE YOUR ISSUE WITHOUT INVESTIGATING
--->
+**Descripción de la solicitud**
+<!-- Area para describir la solicitud -->
 
-**I'm submitting a ...**  (check one with "x")
+<!-- Tipo de solicitud -->
 ```
-[ ] bug report => search github for a similar issue or PR before submitting
+[ ] New Feature
+[ ] bug report
 [ ] feature request
-[ ] support request => Please do not submit support request here, instead see use [gitter](https://gitter.im/mgechev/angular2-seed) or [stackoverflow](https://stackoverflow.com/questions/tagged/angular2)
+[ ] support request
+[ ] Data Work
 ```
 
-**Current behavior**
-<!-- Describe how the bug manifests. -->
+<!-- Area solo debe ser rellenada en caso de tratarse de una incidencia, en caso contraria debe ser borrada -->
 
-**Expected behavior**
-<!-- Describe what the behavior would be without the bug. -->
+**Comportamiento actual**
+<!-- En caso de existir describe el comportamiento que actualmente tiene la caracteristica -->
 
-**Minimal reproduction of the problem with instructions**
+**Comportamiento esperado**
+<!-- En caso de existir describe el comportamiento que deberia tener la caracteristica -->
+
+**Pasos para reproducir la incidencia**
 <!--
 If the current behavior is a bug or you can illustrate your feature request better with an example, 
-please provide the *STEPS TO REPRODUCE* and if possible a *MINIMAL DEMO* of the problem.
--->
+please provide the *STEPS TO REPRODUCE* and if possible a *MINIMAL DEMO* of the problem.-->
 
-**What is the motivation / use case for changing the behavior?**
-<!-- Describe the motivation or the concrete use case -->
+**Archivos Adjuntos**
+<!-- Area para agregar archivos adjuntos -->
 
-**Please tell us about your environment:**
-<!-- Operating system, IDE, package manager, HTTP server, ... -->
-
-* **Angular Seed Version:** `aaaaf75`
-<!-- Check which is the hash of the last commit from angular-seed that you have locally -->
-
-* **Node:** `node --version` =

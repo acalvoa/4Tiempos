@@ -6,11 +6,11 @@ import { Config } from '../config/env.config';
  */
 @Component({
   moduleId: module.id,
-  selector: 'sd-navbar',
-  templateUrl: 'navbar.component.html',
-  styleUrls: ['navbar.component.css'],
+  selector: 'sd-footer',
+  templateUrl: 'footer.component.html',
+  styleUrls: ['footer.component.css'],
 })
-export class NavbarComponent {
+export class FooterComponent {
 	constructor() {
 	    
 	}

@@ -1,3 +1,16 @@
+/*FONTS*/
+@font-face {
+    font-family: "Tw Cen MT";
+    src: url(../assets/fonts/TwCenMT.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Corbel";
+    src: url(../assets/fonts/Corbel.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Corbel Bold";
+    src: url(../assets/fonts/CorbelBold.ttf) format("truetype");
+}
 /* Reset */
 html, body, div {
   border: 0;
@@ -22,7 +35,7 @@ body {
 
 /* Set up a default font and some padding to provide breathing room */
 body {
-  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-family: "Corbel", sans-serif;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -69,9 +82,9 @@ button {
 button:hover {
   background-color: #28739e;
 }
-:host{
-  height: 100%;
-  width: 100%;
+sd-app{
+  height:100%;
+  width: 100%;  
 }
 .waiting_box{
   display: flex;
@@ -79,6 +92,7 @@ button:hover {
   width: 100%;
   justify-content:center;
   align-content:center;
+  align-items:center;
   .engine{
     display: flex;
     height: 200px;

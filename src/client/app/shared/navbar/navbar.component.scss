@@ -1,0 +1,42 @@
+:host{
+}
+.navbar{
+	display:flex;
+	flex-direction:row;
+	height:70px;
+	width: 100%;
+	background: black;
+	padding:5px;
+	padding-left:20px;
+	.logo{
+		display:flex;
+		flex:1;
+		background-image: url('assets/images/logo.png');
+		height: 60px;
+	    width: 150px;
+	    background-size: contain;
+	    background-repeat: no-repeat;
+	}
+	.user_zone{
+		display:flex;
+		flex-direction:row;
+		justify-content:flex-end;
+		flex:1;
+		color:white;
+		cursor:pointer;
+		font-family: "Corbel";
+		.signin{
+			display:flex;
+			align-content:center;
+			align-items:center;
+			padding:10px 20px;
+		}
+		.signup{
+			display:flex;
+			align-content:center;
+			align-items:center;
+			padding:10px 20px;
+
+		}
+	}
+}

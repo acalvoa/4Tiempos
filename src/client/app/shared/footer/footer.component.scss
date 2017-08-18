@@ -1,8 +1,32 @@
 :host{
+	display:block;
 }
 .footer{
-	height:60px;
+	height:auto;
 	width: 100%;
 	background: black;
-	
+	flex-direction:column;
+	.sections{
+		display:flex;
+		height:120px;
+	}
+	.trademark{
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		flex-direction:column;
+		padding:10px;
+		.logo{
+			display:flex;
+			height:40px;
+			width: 90px;
+			background-image: url('assets/images/logo.png');
+			background-size:contain;
+			background-repeat: no-repeat;
+		}
+		.info{
+			color:white;
+			font-size:0.8rem;
+		}
+	}
 }

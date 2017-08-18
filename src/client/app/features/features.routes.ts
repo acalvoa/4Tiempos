@@ -1,16 +1,24 @@
 import { Route } from '@angular/router';
 import { HomeComponent } from './home/home.component';
+import { MarcasComponent } from './marcas/marcas.component';
+import { NosotrosComponent } from './nosotros/nosotros.component';
+import { ProductosComponent } from './productos/productos.component';
 
 export const FeaturesRoutes: Route[] = [
   {
     path: '',
-    component: HomeComponent,
-    // canActivate: [MetaGuard],
-    // data: {
-    //   meta: {
-    //     title: 'Importaciones Fáciles desde China y USA | ImportClub ★',
-    //     description: 'Ahorra hasta un 70% sumándote a nuestras importaciones colaborativas. Compra online y recibe los productos directo a tu casa. ✓ Fácil y seguro. ✓'
-    //   }
-    // }
+    component: HomeComponent
+  },
+  {
+    path: 'marcas',
+    component: MarcasComponent
+  },
+  {
+    path: 'nosotros',
+    component: NosotrosComponent
+  },
+  {
+    path: 'productos',
+    component: ProductosComponent
   }
 ];

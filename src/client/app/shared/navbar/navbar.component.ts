@@ -11,7 +11,14 @@ import { Config } from '../config/env.config';
   styleUrls: ['navbar.component.css'],
 })
 export class NavbarComponent {
+	private menumobile:boolean = false;
 	constructor() {
 	    
+	}
+	private togleMenuMobile(){
+		this.menumobile = !this.menumobile;
+	}
+	private login(){
+		this.menumobile = !this.menumobile;
 	}
 }
